@@ -1,0 +1,122 @@
+{
+ "lm": "32B",
+ "reader_size": "7B",
+ "lam": 0.7,
+ "n_examples": 240,
+ "arm": "deployed (both adapters): reader + reader_binding_v5distill_r16_s900, query LM + stage2_on_v5reader_lam07_r16_s600",
+ "n_task": 17216,
+ "n_all": 18554,
+ "reader": {
+  "mean": 0.403181791305542,
+  "median": 0.004851801320910454,
+  "q25": 2.619374754431192e-05,
+  "q75": 0.2884356379508972,
+  "frac_under_01": 0.6525906133828996,
+  "n": 17216
+ },
+ "query_lm": {
+  "mean": 0.8536093235015869,
+  "median": 0.0707855373620987,
+  "q25": 0.0004028453549835831,
+  "q75": 1.002112627029419,
+  "frac_under_01": 0.5227695167286245,
+  "n": 17216
+ },
+ "fused": {
+  "mean": 0.33412960171699524,
+  "median": 0.00470934621989727,
+  "q25": 2.3900503947515972e-05,
+  "q75": 0.23031380772590637,
+  "frac_under_01": 0.6664149628252788,
+  "n": 17216
+ },
+ "oracle": {
+  "mean": 0.30009716749191284,
+  "median": 0.0034533224534243345,
+  "q25": 1.933497333084233e-05,
+  "q75": 0.20744618773460388,
+  "frac_under_01": 0.6829112453531598,
+  "n": 17216
+ },
+ "fused_below_both_frac": 0.41676347583643125,
+ "reader_preferred_frac": 0.7434944237918215,
+ "by_segment": {
+  "reason": {
+   "reader": {
+    "mean": 0.3072598874568939,
+    "median": 0.007069390267133713,
+    "q25": 2.68828898697393e-05,
+    "q75": 0.31081223487854004,
+    "frac_under_01": 0.6386251819000762,
+    "n": 14431
+   },
+   "query_lm": {
+    "mean": 0.8587720394134521,
+    "median": 0.11574094742536545,
+    "q25": 0.0006408989429473877,
+    "q75": 1.113370418548584,
+    "frac_under_01": 0.4898482433649782,
+    "n": 14431
+   },
+   "fused": {
+    "mean": 0.2456560730934143,
+    "median": 0.007090523838996887,
+    "q25": 2.656977994774934e-05,
+    "q75": 0.2433733344078064,
+    "frac_under_01": 0.653523664333726,
+    "n": 14431
+   },
+   "oracle": {
+    "mean": 0.2307724952697754,
+    "median": 0.005030404776334763,
+    "q25": 2.1227016986813396e-05,
+    "q75": 0.22223572432994843,
+    "frac_under_01": 0.6702238237128404,
+    "n": 14431
+   }
+  },
+  "answer": {
+   "reader": {
+    "mean": 0.9002191424369812,
+    "median": 0.001210302347317338,
+    "q25": 2.3428025087923743e-05,
+    "q75": 0.1456410437822342,
+    "frac_under_01": 0.7249551166965889,
+    "n": 2785
+   },
+   "query_lm": {
+    "mean": 0.8268579244613647,
+    "median": 0.0036672058049589396,
+    "q25": 4.2373096221126616e-05,
+    "q75": 0.23780004680156708,
+    "frac_under_01": 0.6933572710951525,
+    "n": 2785
+   },
+   "fused": {
+    "mean": 0.7925716638565063,
+    "median": 0.0009672053856775165,
+    "q25": 1.5300847735488787e-05,
+    "q75": 0.13123375177383423,
+    "frac_under_01": 0.733213644524237,
+    "n": 2785
+   },
+   "oracle": {
+    "mean": 0.6593160629272461,
+    "median": 0.0006599804037250578,
+    "q25": 1.2050255463691428e-05,
+    "q75": 0.10163985192775726,
+    "frac_under_01": 0.748653500897666,
+    "n": 2785
+   }
+  }
+ },
+ "gate_DL_mean_abs_delta": 0.5437226891517639,
+ "published_cell": {
+  "reader": 0.337,
+  "query_lm": 0.689,
+  "oracle": 0.193,
+  "n_task": 17216
+ },
+ "_source": "scripts/branch_kl_fused.py \u2014 the teacher trajectory and its logits read from lm32B_Tpass.npz (not regenerated); the 32B no-context and 7B full-context forwards re-run; no adapters; TASK span = reason+answer",
+ "_repair": "2026-09-18: D_L and the oracle had been copied from the cached NO-ADAPTER pass, so they reported the base query LM under the FT label. Recomputed on CPU from this run's own saved L rows (lm32B_Lpass_tmp_ft.npz); D_S and D_F were correct and are unchanged."
+}

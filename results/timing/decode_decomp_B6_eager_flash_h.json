@@ -1,0 +1,64 @@
+{
+  "reader7B": {
+    "free": {
+      "wall_ms": 29.547,
+      "cpu_ms": 29.541
+    },
+    "sync": {
+      "wall_ms": 29.663,
+      "cpu_ms": 29.423
+    }
+  },
+  "lm32B": {
+    "free": {
+      "wall_ms": 64.193,
+      "cpu_ms": 64.186
+    },
+    "sync": {
+      "wall_ms": 65.159,
+      "cpu_ms": 64.799
+    }
+  },
+  "fusion_syncfree": {
+    "free": {
+      "wall_ms": 98.361,
+      "cpu_ms": 98.354
+    },
+    "sync": {
+      "wall_ms": 98.926,
+      "cpu_ms": 98.566
+    }
+  },
+  "fusion_asimpl": {
+    "free": {
+      "wall_ms": 98.698,
+      "cpu_ms": 98.691
+    },
+    "sync": {
+      "wall_ms": 97.331,
+      "cpu_ms": 96.976
+    }
+  },
+  "harness_turn_ms": 97.481,
+  "_derived": {
+    "harness_over_asimpl_ms": -1.217,
+    "sum_of_branches_ms": 93.74,
+    "glue_ms": 4.621,
+    "sync_cost_ms": 0.337,
+    "asimpl_over_sum_pct": 5.3,
+    "syncfree_tok_s_at_B": 61.0,
+    "asimpl_tok_s_at_B": 60.8
+  },
+  "_cfg": {
+    "B": 6,
+    "CTX": 27500,
+    "LMCTX": 192,
+    "NSTEP": 60,
+    "LAM": 0.85,
+    "static": "0",
+    "lm": "Qwen/Qwen2.5-32B-Instruct",
+    "slm": "Qwen/Qwen2.5-7B-Instruct",
+    "node": "gh101",
+    "job": "3030499"
+  }
+}

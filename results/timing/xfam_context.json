@@ -1,0 +1,417 @@
+{
+  "Gemma-3 12B+4B (own chat format)": {
+    "d40": {
+      "teacher": {
+        "n": 600,
+        "asis": 0.7006,
+        "trimmed": 0.694,
+        "moved": 4,
+        "residual_over15w": 0,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "ctx_ktok": 6.1,
+      "ours": {
+        "n": 600,
+        "asis": 0.6588,
+        "trimmed": 0.6588,
+        "moved": 0,
+        "residual_over15w": 0,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "floor": {
+        "n": 600,
+        "asis": 0.4636,
+        "trimmed": 0.4636,
+        "moved": 0,
+        "residual_over15w": 91,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "closeness_pct": 84.7
+    },
+    "d80": {
+      "teacher": {
+        "n": 600,
+        "asis": 0.6767,
+        "trimmed": 0.6683,
+        "moved": 8,
+        "residual_over15w": 0,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "ctx_ktok": 11.8,
+      "ours": {
+        "n": 600,
+        "asis": 0.6449,
+        "trimmed": 0.6449,
+        "moved": 0,
+        "residual_over15w": 0,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "floor": {
+        "n": 600,
+        "asis": 0.4082,
+        "trimmed": 0.4082,
+        "moved": 0,
+        "residual_over15w": 111,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "closeness_pct": 91.0
+    },
+    "d120": {
+      "teacher": {
+        "n": 600,
+        "asis": 0.6626,
+        "trimmed": 0.6356,
+        "moved": 21,
+        "residual_over15w": 0,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "ctx_ktok": 18.0,
+      "ours": {
+        "n": 600,
+        "asis": 0.6244,
+        "trimmed": 0.6244,
+        "moved": 0,
+        "residual_over15w": 0,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "floor": {
+        "n": 600,
+        "asis": 0.452,
+        "trimmed": 0.452,
+        "moved": 0,
+        "residual_over15w": 64,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "closeness_pct": 93.9
+    },
+    "d160": {
+      "teacher": {
+        "n": 600,
+        "asis": 0.6525,
+        "trimmed": 0.6449,
+        "moved": 8,
+        "residual_over15w": 0,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "ctx_ktok": 23.3,
+      "ours": {
+        "n": 600,
+        "asis": 0.633,
+        "trimmed": 0.633,
+        "moved": 0,
+        "residual_over15w": 0,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "floor": {
+        "n": 600,
+        "asis": 0.4287,
+        "trimmed": 0.4287,
+        "moved": 0,
+        "residual_over15w": 43,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "closeness_pct": 94.5
+    }
+  },
+  "Qwen2.5 32B+3B": {
+    "d40": {
+      "teacher": {
+        "n": 600,
+        "asis": 0.7492,
+        "trimmed": 0.7492,
+        "moved": 0,
+        "residual_over15w": 6,
+        "reasoned_pct": 98.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "ctx_ktok": 6.1,
+      "ours": {
+        "n": 600,
+        "asis": 0.6681,
+        "trimmed": 0.6708,
+        "moved": 5,
+        "residual_over15w": 3,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "floor": {
+        "n": 600,
+        "asis": 0.5314,
+        "trimmed": 0.5432,
+        "moved": 11,
+        "residual_over15w": 3,
+        "reasoned_pct": 100.0,
+        "empty": 1,
+        "yarn": null
+      },
+      "closeness_pct": 61.9
+    },
+    "d80": {
+      "teacher": {
+        "n": 600,
+        "asis": 0.7086,
+        "trimmed": 0.7232,
+        "moved": 14,
+        "residual_over15w": 10,
+        "reasoned_pct": 99.8,
+        "empty": 0,
+        "yarn": null
+      },
+      "ctx_ktok": 11.8,
+      "ours": {
+        "n": 600,
+        "asis": 0.6518,
+        "trimmed": 0.655,
+        "moved": 5,
+        "residual_over15w": 4,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "floor": {
+        "n": 600,
+        "asis": 0.5055,
+        "trimmed": 0.5057,
+        "moved": 5,
+        "residual_over15w": 6,
+        "reasoned_pct": 100.0,
+        "empty": 6,
+        "yarn": null
+      },
+      "closeness_pct": 68.6
+    },
+    "d120": {
+      "teacher": {
+        "n": 600,
+        "asis": 0.6167,
+        "trimmed": 0.7029,
+        "moved": 83,
+        "residual_over15w": 13,
+        "reasoned_pct": 98.7,
+        "empty": 0,
+        "yarn": null
+      },
+      "ctx_ktok": 18.0,
+      "ours": {
+        "n": 600,
+        "asis": 0.6289,
+        "trimmed": 0.6309,
+        "moved": 2,
+        "residual_over15w": 6,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "floor": {
+        "n": 600,
+        "asis": 0.453,
+        "trimmed": 0.4488,
+        "moved": 7,
+        "residual_over15w": 16,
+        "reasoned_pct": 100.0,
+        "empty": 21,
+        "yarn": null
+      },
+      "closeness_pct": 71.7
+    },
+    "d160": {
+      "teacher": {
+        "n": 600,
+        "asis": 0.5116,
+        "trimmed": 0.6893,
+        "moved": 177,
+        "residual_over15w": 24,
+        "reasoned_pct": 96.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "ctx_ktok": 23.3,
+      "ours": {
+        "n": 600,
+        "asis": 0.6217,
+        "trimmed": 0.6243,
+        "moved": 5,
+        "residual_over15w": 5,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "floor": {
+        "n": 600,
+        "asis": 0.4567,
+        "trimmed": 0.4515,
+        "moved": 6,
+        "residual_over15w": 38,
+        "reasoned_pct": 100.0,
+        "empty": 14,
+        "yarn": null
+      },
+      "closeness_pct": 72.7
+    }
+  },
+  "OLMo-3 32B+7B": {
+    "d40": {
+      "teacher": {
+        "n": 600,
+        "asis": 0.6465,
+        "trimmed": 0.6465,
+        "moved": 0,
+        "residual_over15w": 44,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "ctx_ktok": 6.1,
+      "ours": {
+        "n": 600,
+        "asis": 0.5942,
+        "trimmed": 0.5942,
+        "moved": 0,
+        "residual_over15w": 32,
+        "reasoned_pct": 100.0,
+        "empty": 1,
+        "yarn": null
+      },
+      "floor": {
+        "n": 600,
+        "asis": 0.471,
+        "trimmed": 0.471,
+        "moved": 0,
+        "residual_over15w": 94,
+        "reasoned_pct": 100.0,
+        "empty": 1,
+        "yarn": null
+      },
+      "closeness_pct": 70.2
+    },
+    "d80": {
+      "teacher": {
+        "n": 600,
+        "asis": 0.611,
+        "trimmed": 0.611,
+        "moved": 0,
+        "residual_over15w": 45,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "ctx_ktok": 11.8,
+      "ours": {
+        "n": 600,
+        "asis": 0.5527,
+        "trimmed": 0.5527,
+        "moved": 0,
+        "residual_over15w": 33,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "floor": {
+        "n": 600,
+        "asis": 0.4402,
+        "trimmed": 0.4402,
+        "moved": 0,
+        "residual_over15w": 114,
+        "reasoned_pct": 100.0,
+        "empty": 1,
+        "yarn": null
+      },
+      "closeness_pct": 65.9
+    },
+    "d120": {
+      "teacher": {
+        "n": 600,
+        "asis": 0.593,
+        "trimmed": 0.593,
+        "moved": 0,
+        "residual_over15w": 60,
+        "reasoned_pct": 100.0,
+        "empty": 1,
+        "yarn": null
+      },
+      "ctx_ktok": 18.0,
+      "ours": {
+        "n": 600,
+        "asis": 0.5545,
+        "trimmed": 0.5545,
+        "moved": 0,
+        "residual_over15w": 29,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "floor": {
+        "n": 600,
+        "asis": 0.4086,
+        "trimmed": 0.4086,
+        "moved": 0,
+        "residual_over15w": 105,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "closeness_pct": 79.1
+    },
+    "d160": {
+      "teacher": {
+        "n": 600,
+        "asis": 0.5855,
+        "trimmed": 0.5855,
+        "moved": 0,
+        "residual_over15w": 57,
+        "reasoned_pct": 100.0,
+        "empty": 1,
+        "yarn": null
+      },
+      "ctx_ktok": 23.3,
+      "ours": {
+        "n": 600,
+        "asis": 0.5128,
+        "trimmed": 0.5128,
+        "moved": 0,
+        "residual_over15w": 36,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "floor": {
+        "n": 600,
+        "asis": 0.3776,
+        "trimmed": 0.3776,
+        "moved": 0,
+        "residual_over15w": 117,
+        "reasoned_pct": 100.0,
+        "empty": 0,
+        "yarn": null
+      },
+      "closeness_pct": 65.0
+    }
+  },
+  "_source": "scripts/score_context_axis.py score_xfam() \u2014 the Qwen axis's uniform answer boundary and canonical extractor, applied to Gemma-3 and OLMo-3 at four context lengths (d80/d120 added 2026-09-04). Accuracy only."
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "turn": 0,
+    "err_vs_true": 0.1540689319372177,
+    "drift": 0.0,
+    "rollback_ok": null,
+    "cumulative_length": 6152
+  },
+  {
+    "turn": 1,
+    "err_vs_true": 0.1540689319372177,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 6272
+  }
+]

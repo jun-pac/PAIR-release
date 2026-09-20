@@ -1,0 +1,188 @@
+{
+ "teacher": {
+  "n_shared": 600,
+  "partial": false,
+  "native": {
+   "n": 600,
+   "f1": 0.6893,
+   "reasoned_pct": 96.0,
+   "empty": 0
+  },
+  "yarn": {
+   "n": 600,
+   "f1": 0.6843,
+   "reasoned_pct": 99.3,
+   "empty": 0
+  },
+  "rope_delta": -0.005,
+  "win": 40,
+  "loss": 41,
+  "quartiles": [
+   {
+    "ctx_lo": 15458,
+    "ctx_hi": 21217,
+    "native": 0.7207,
+    "yarn": 0.708,
+    "reasoned_native": 145,
+    "reasoned_yarn": 148,
+    "n": 150
+   },
+   {
+    "ctx_lo": 21267,
+    "ctx_hi": 23322,
+    "native": 0.7383,
+    "yarn": 0.7225,
+    "reasoned_native": 143,
+    "reasoned_yarn": 149,
+    "n": 150
+   },
+   {
+    "ctx_lo": 23325,
+    "ctx_hi": 25531,
+    "native": 0.6667,
+    "yarn": 0.6728,
+    "reasoned_native": 144,
+    "reasoned_yarn": 149,
+    "n": 150
+   },
+   {
+    "ctx_lo": 25590,
+    "ctx_hi": 32333,
+    "native": 0.6314,
+    "yarn": 0.6338,
+    "reasoned_native": 144,
+    "reasoned_yarn": 150,
+    "n": 150
+   }
+  ],
+  "control_batch": 3,
+  "control_node": "gh052",
+  "control_yarn": 4.0,
+  "d160_to_d200_step": -0.0195
+ },
+ "ours": {
+  "n_shared": 600,
+  "partial": false,
+  "native": {
+   "n": 600,
+   "f1": 0.6718,
+   "reasoned_pct": 100.0,
+   "empty": 0
+  },
+  "yarn": {
+   "n": 600,
+   "f1": 0.6902,
+   "reasoned_pct": 100.0,
+   "empty": 0
+  },
+  "rope_delta": 0.0184,
+  "win": 35,
+  "loss": 23,
+  "quartiles": [
+   {
+    "ctx_lo": 16291,
+    "ctx_hi": 21637,
+    "native": 0.7084,
+    "yarn": 0.708,
+    "reasoned_native": 150,
+    "reasoned_yarn": 150,
+    "n": 150
+   },
+   {
+    "ctx_lo": 21637,
+    "ctx_hi": 23930,
+    "native": 0.6977,
+    "yarn": 0.7292,
+    "reasoned_native": 150,
+    "reasoned_yarn": 150,
+    "n": 150
+   },
+   {
+    "ctx_lo": 23930,
+    "ctx_hi": 26144,
+    "native": 0.6677,
+    "yarn": 0.6907,
+    "reasoned_native": 150,
+    "reasoned_yarn": 150,
+    "n": 150
+   },
+   {
+    "ctx_lo": 26144,
+    "ctx_hi": 32333,
+    "native": 0.6135,
+    "yarn": 0.633,
+    "reasoned_native": 150,
+    "reasoned_yarn": 150,
+    "n": 150
+   }
+  ],
+  "control_batch": 8,
+  "control_node": "gh142",
+  "control_yarn": 4.0,
+  "d160_to_d200_step": 0.0122
+ },
+ "floor": {
+  "n_shared": 600,
+  "partial": false,
+  "native": {
+   "n": 600,
+   "f1": 0.5554,
+   "reasoned_pct": 97.3,
+   "empty": 3
+  },
+  "yarn": {
+   "n": 600,
+   "f1": 0.4865,
+   "reasoned_pct": 36.2,
+   "empty": 29
+  },
+  "rope_delta": -0.0689,
+  "win": 53,
+  "loss": 97,
+  "quartiles": [
+   {
+    "ctx_lo": 17495,
+    "ctx_hi": 22189,
+    "native": 0.5568,
+    "yarn": 0.4521,
+    "reasoned_native": 147,
+    "reasoned_yarn": 34,
+    "n": 150
+   },
+   {
+    "ctx_lo": 22189,
+    "ctx_hi": 24570,
+    "native": 0.5831,
+    "yarn": 0.5241,
+    "reasoned_native": 142,
+    "reasoned_yarn": 67,
+    "n": 150
+   },
+   {
+    "ctx_lo": 24570,
+    "ctx_hi": 26958,
+    "native": 0.5508,
+    "yarn": 0.5175,
+    "reasoned_native": 145,
+    "reasoned_yarn": 67,
+    "n": 150
+   },
+   {
+    "ctx_lo": 26958,
+    "ctx_hi": 32333,
+    "native": 0.531,
+    "yarn": 0.4524,
+    "reasoned_native": 150,
+    "reasoned_yarn": 49,
+    "n": 150
+   }
+  ],
+  "control_batch": 24,
+  "control_node": "gh119",
+  "control_yarn": 4.0,
+  "d160_to_d200_step": -0.1082
+ },
+ "closeness_pct_yarn": 103.0,
+ "closeness_pct_native": 86.9,
+ "_source": "scripts/score_yarn_control.py \u2014 ctx_ho160_{t,o,f} (native rope) vs ctx_ho160y_{t,o,f} (ROPE_YARN_FACTOR=4 on both models, jobs 3134366/3134367/3134370), paired by conversation, score_context_axis.py's trimmed token-F1 on both; d160\u2192d200 step from context_axis.json for reference."
+}

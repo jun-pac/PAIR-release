@@ -1,0 +1,35 @@
+{
+ "headline": {
+  "basis": "task span minus the teacher's own end-of-text token",
+  "n": 17012,
+  "reader": 0.2884678542613983,
+  "query_lm": 0.6869277954101562,
+  "ours_ft": 0.2337522804737091,
+  "ours_noft": 0.24284452199935913,
+  "oracle": 0.18610477447509766,
+  "ours_ft_covers": 0.5345244975230986,
+  "ours_noft_covers": 0.4457010511727979
+ },
+ "full_span": {
+  "basis": "task span, the published definition",
+  "n": 17216,
+  "reader": 0.33703526854515076,
+  "query_lm": 0.6886484026908875,
+  "ours_ft": 0.33412960171699524,
+  "ours_noft": 0.25610989332199097,
+  "oracle": 0.19282576441764832,
+  "ours_ft_covers": 0.020148927393762343,
+  "ours_noft_covers": 0.5611653386701188
+ },
+ "eot_only": {
+  "basis": "the teacher's end-of-text token alone",
+  "n": 204,
+  "reader": 4.387178421020508,
+  "reader_ft": 9.948551177978516,
+  "query_lm": 0.8321301937103271,
+  "ours_ft": 8.70480728149414,
+  "ours_noft": 1.362339735031128,
+  "oracle": 0.7533059120178223
+ },
+ "_source": "scripts/branch_kl_fused.py, jobs 3170965 (no adapters) and 3173215 (deployed pair); branches and oracle are the NO-ADAPTER models, ours is the deployed pool at lam 0.7 \u2014 fine-tuning is part of the method, not a variant of the branches. The headline drops the teacher's own end-of-text token (one per ended answer, 1.18% of the span): there the deployed pool is 8.70 nats and the un-tuned pool 1.36, so that token measures where an arm stops rather than whether its answer is right."
+}

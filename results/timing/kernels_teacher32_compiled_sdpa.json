@@ -1,0 +1,172 @@
+{
+  "tag": "teacher32_compiled_sdpa",
+  "attn_impl": "sdpa",
+  "static": true,
+  "compile_mode": "default",
+  "B": 3,
+  "ctx": 27500,
+  "alloc": "expandable_segments:True",
+  "node": "gh074",
+  "job": "3035652",
+  "total_gpu_ms_per_step": 176.83496325000127,
+  "launches_per_step": 2547.0,
+  "buckets": {
+    "KV write / copy": 1.6228941666676544,
+    "other": 18.96787608333366,
+    "elementwise / norm / rope": 2.659650749999635,
+    "matmul (projections + MLP)": 19.59754058333297,
+    "attention": 133.98700166666734
+  },
+  "top": [
+    {
+      "ms": 37.06808033333346,
+      "n": 128.0,
+      "kernel": "triton_poi_fused__scaled_dot_product_cudnn_attention__to_copy__unsafe_view_add_arange_bitwise_and_cat_clone_cos_expand_index_le_mul_neg_scalar_tensor_sin_slice_transpose_unsqueeze_view_where_5",
+      "bucket": "attention"
+    },
+    {
+      "ms": 37.06808033333346,
+      "n": 128.0,
+      "kernel": "triton_poi_fused__scaled_dot_product_cudnn_attention__to_copy__unsafe_view_add_arange_bitwise_and_cat_clone_cos_expand_index_le_mul_neg_scalar_tensor_sin_slice_transpose_unsqueeze_view_where_5",
+      "bucket": "attention"
+    },
+    {
+      "ms": 29.79364241666684,
+      "n": 64.0,
+      "kernel": "cudnn_generated_fort_native_sdpa_sm80_flash_fprop_wmma_f16_knob_35_16x128x128_1x4x1_cga1x1x1_kernel0_0",
+      "bucket": "attention"
+    },
+    {
+      "ms": 29.79364241666684,
+      "n": 64.0,
+      "kernel": "aten::_cudnn_attention_forward",
+      "bucket": "attention"
+    },
+    {
+      "ms": 17.174380500000115,
+      "n": 257.0,
+      "kernel": "aten::mm",
+      "bucket": "other"
+    },
+    {
+      "ms": 10.252019666666856,
+      "n": 128.0,
+      "kernel": "nvjet_tst_128x8_64x12_2x1_v_bz_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 5.182678833333307,
+      "n": 64.0,
+      "kernel": "nvjet_tst_128x8_64x12_4x1_v_bz_splitK_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 2.422746583332884,
+      "n": 192.0,
+      "kernel": "aten::addmm",
+      "bucket": "elementwise / norm / rope"
+    },
+    {
+      "ms": 1.6150899166667199,
+      "n": 121.66666666666667,
+      "kernel": "Command Buffer Full",
+      "bucket": "other"
+    },
+    {
+      "ms": 1.220081916666579,
+      "n": 64.0,
+      "kernel": "nvjet_tst_64x8_64x16_4x1_v_bz_bias_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 1.1577882499999221,
+      "n": 64.0,
+      "kernel": "nvjet_tst_64x8_64x16_4x1_v_bz_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.9238857499997885,
+      "n": 128.0,
+      "kernel": "nvjet_tst_64x8_64x16_4x1_v_bz_splitK_bias_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.4264473333333214,
+      "n": 1.0,
+      "kernel": "nvjet_tst_384x8_64x4_2x1_v_bz_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.2787789166665165,
+      "n": 128.0,
+      "kernel": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false, float, __nv_bfloat16, __nv_bfloat16, true, true, false>(cublasLt::cublasSplitKParams<float>, float const*, __nv_bfloat16 const*, float*, __nv_bfloat16*, float const*, float const*, __nv_bfloat16 const*, float const*, __nv_bfloat16*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.17509108333339676,
+      "n": 31.0,
+      "kernel": "triton_red_fused__to_copy__unsafe_view_add_mean_mm_mul_pow_rsqrt_15",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.17509108333339676,
+      "n": 31.0,
+      "kernel": "triton_red_fused__to_copy__unsafe_view_add_mean_mm_mul_pow_rsqrt_15",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.15440125000002247,
+      "n": 64.0,
+      "kernel": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false, float, __nv_bfloat16, __nv_bfloat16, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __nv_bfloat16 const*, float*, __nv_bfloat16*, float const*, float const*, __nv_bfloat16 const*, float const*, __nv_bfloat16*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.13875150000007322,
+      "n": 31.0,
+      "kernel": "triton_red_fused__to_copy__unsafe_view_add_mean_mm_mul_pow_rsqrt_14",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.13875150000007322,
+      "n": 31.0,
+      "kernel": "triton_red_fused__to_copy__unsafe_view_add_mean_mm_mul_pow_rsqrt_14",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.1381324166668608,
+      "n": 64.0,
+      "kernel": "triton_poi_fused__to_copy_add_cat_cos_index_copy_mul_neg_sin_slice_transpose_unsqueeze_view_2",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.1381324166668608,
+      "n": 64.0,
+      "kernel": "triton_poi_fused__to_copy_add_cat_cos_index_copy_mul_neg_sin_slice_transpose_unsqueeze_view_2",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.11993033333335955,
+      "n": 31.0,
+      "kernel": "triton_red_fused__to_copy__unsafe_view_add_mean_mul_pow_rsqrt_12",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.11993033333335955,
+      "n": 31.0,
+      "kernel": "triton_red_fused__to_copy__unsafe_view_add_mean_mul_pow_rsqrt_12",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.11506941666671901,
+      "n": 64.0,
+      "kernel": "triton_poi_fused__unsafe_view_mul_silu_9",
+      "bucket": "elementwise / norm / rope"
+    },
+    {
+      "ms": 0.11506941666671901,
+      "n": 64.0,
+      "kernel": "triton_poi_fused__unsafe_view_mul_silu_9",
+      "bucket": "elementwise / norm / rope"
+    }
+  ]
+}

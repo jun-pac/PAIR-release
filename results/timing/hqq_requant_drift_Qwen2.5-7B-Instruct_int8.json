@@ -1,0 +1,219 @@
+[
+  {
+    "turn": 0,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": null,
+    "cumulative_length": 4104
+  },
+  {
+    "turn": 1,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 4224
+  },
+  {
+    "turn": 2,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 4344
+  },
+  {
+    "turn": 3,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 4464
+  },
+  {
+    "turn": 4,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 4584
+  },
+  {
+    "turn": 5,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 4704
+  },
+  {
+    "turn": 6,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 4824
+  },
+  {
+    "turn": 7,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 4944
+  },
+  {
+    "turn": 8,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 5064
+  },
+  {
+    "turn": 9,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 5184
+  },
+  {
+    "turn": 10,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 5304
+  },
+  {
+    "turn": 11,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 5424
+  },
+  {
+    "turn": 12,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 5544
+  },
+  {
+    "turn": 13,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 5664
+  },
+  {
+    "turn": 14,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 5784
+  },
+  {
+    "turn": 15,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 5904
+  },
+  {
+    "turn": 16,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 6024
+  },
+  {
+    "turn": 17,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 6144
+  },
+  {
+    "turn": 18,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 6264
+  },
+  {
+    "turn": 19,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 6384
+  },
+  {
+    "turn": 20,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 6504
+  },
+  {
+    "turn": 21,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 6624
+  },
+  {
+    "turn": 22,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 6744
+  },
+  {
+    "turn": 23,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 6864
+  },
+  {
+    "turn": 24,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 6984
+  },
+  {
+    "turn": 25,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 7104
+  },
+  {
+    "turn": 26,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 7224
+  },
+  {
+    "turn": 27,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 7344
+  },
+  {
+    "turn": 28,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 7464
+  },
+  {
+    "turn": 29,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 7584
+  },
+  {
+    "turn": 30,
+    "err_vs_true": 0.0055089169181883335,
+    "drift": 0.0,
+    "rollback_ok": true,
+    "cumulative_length": 7704
+  }
+]

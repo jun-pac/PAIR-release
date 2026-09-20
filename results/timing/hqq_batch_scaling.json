@@ -1,0 +1,218 @@
+[
+  {
+    "T": 7000,
+    "B": 1,
+    "kind": "fp16",
+    "nbits": null,
+    "walk_bytes": 1900019712,
+    "bf16_bytes": 1900019712,
+    "pct_of_bf16": 100.0
+  },
+  {
+    "T": 7000,
+    "B": 1,
+    "kind": "hqq",
+    "nbits": 8,
+    "walk_bytes": 1018232832,
+    "bf16_bytes": 1900019712,
+    "pct_of_bf16": 53.59
+  },
+  {
+    "T": 7000,
+    "B": 1,
+    "kind": "hqq",
+    "nbits": 4,
+    "walk_bytes": 547946496,
+    "bf16_bytes": 1900019712,
+    "pct_of_bf16": 28.84
+  },
+  {
+    "T": 7000,
+    "B": 1,
+    "kind": "hqq",
+    "nbits": 3,
+    "walk_bytes": 489160704,
+    "bf16_bytes": 1900019712,
+    "pct_of_bf16": 25.75
+  },
+  {
+    "T": 7000,
+    "B": 4,
+    "kind": "fp16",
+    "nbits": null,
+    "walk_bytes": 7600078848,
+    "bf16_bytes": 7600078848,
+    "pct_of_bf16": 100.0
+  },
+  {
+    "T": 7000,
+    "B": 4,
+    "kind": "hqq",
+    "nbits": 8,
+    "walk_bytes": 4072931328,
+    "bf16_bytes": 7600078848,
+    "pct_of_bf16": 53.59
+  },
+  {
+    "T": 7000,
+    "B": 4,
+    "kind": "hqq",
+    "nbits": 4,
+    "walk_bytes": 2191785984,
+    "bf16_bytes": 7600078848,
+    "pct_of_bf16": 28.84
+  },
+  {
+    "T": 7000,
+    "B": 4,
+    "kind": "hqq",
+    "nbits": 3,
+    "walk_bytes": 1956642816,
+    "bf16_bytes": 7600078848,
+    "pct_of_bf16": 25.75
+  },
+  {
+    "T": 7000,
+    "B": 12,
+    "kind": "fp16",
+    "nbits": null,
+    "walk_bytes": 22800236544,
+    "bf16_bytes": 22800236544,
+    "pct_of_bf16": 100.0
+  },
+  {
+    "T": 7000,
+    "B": 12,
+    "kind": "hqq",
+    "nbits": 8,
+    "walk_bytes": 12218793984,
+    "bf16_bytes": 22800236544,
+    "pct_of_bf16": 53.59
+  },
+  {
+    "T": 7000,
+    "B": 12,
+    "kind": "hqq",
+    "nbits": 4,
+    "walk_bytes": 6575357952,
+    "bf16_bytes": 22800236544,
+    "pct_of_bf16": 28.84
+  },
+  {
+    "T": 7000,
+    "B": 12,
+    "kind": "hqq",
+    "nbits": 3,
+    "walk_bytes": 5869928448,
+    "bf16_bytes": 22800236544,
+    "pct_of_bf16": 25.75
+  },
+  {
+    "T": 10200,
+    "B": 1,
+    "kind": "fp16",
+    "nbits": null,
+    "walk_bytes": 2738880512,
+    "bf16_bytes": 2738880512,
+    "pct_of_bf16": 100.0
+  },
+  {
+    "T": 10200,
+    "B": 1,
+    "kind": "hqq",
+    "nbits": 8,
+    "walk_bytes": 1469775872,
+    "bf16_bytes": 2738880512,
+    "pct_of_bf16": 53.66
+  },
+  {
+    "T": 10200,
+    "B": 1,
+    "kind": "hqq",
+    "nbits": 4,
+    "walk_bytes": 792920064,
+    "bf16_bytes": 2738880512,
+    "pct_of_bf16": 28.95
+  },
+  {
+    "T": 10200,
+    "B": 1,
+    "kind": "hqq",
+    "nbits": 3,
+    "walk_bytes": 708313088,
+    "bf16_bytes": 2738880512,
+    "pct_of_bf16": 25.86
+  },
+  {
+    "T": 10200,
+    "B": 4,
+    "kind": "fp16",
+    "nbits": null,
+    "walk_bytes": 10955522048,
+    "bf16_bytes": 10955522048,
+    "pct_of_bf16": 100.0
+  },
+  {
+    "T": 10200,
+    "B": 4,
+    "kind": "hqq",
+    "nbits": 8,
+    "walk_bytes": 5879103488,
+    "bf16_bytes": 10955522048,
+    "pct_of_bf16": 53.66
+  },
+  {
+    "T": 10200,
+    "B": 4,
+    "kind": "hqq",
+    "nbits": 4,
+    "walk_bytes": 3171680256,
+    "bf16_bytes": 10955522048,
+    "pct_of_bf16": 28.95
+  },
+  {
+    "T": 10200,
+    "B": 4,
+    "kind": "hqq",
+    "nbits": 3,
+    "walk_bytes": 2833252352,
+    "bf16_bytes": 10955522048,
+    "pct_of_bf16": 25.86
+  },
+  {
+    "T": 10200,
+    "B": 12,
+    "kind": "fp16",
+    "nbits": null,
+    "walk_bytes": 32866566144,
+    "bf16_bytes": 32866566144,
+    "pct_of_bf16": 100.0
+  },
+  {
+    "T": 10200,
+    "B": 12,
+    "kind": "hqq",
+    "nbits": 8,
+    "walk_bytes": 17637310464,
+    "bf16_bytes": 32866566144,
+    "pct_of_bf16": 53.66
+  },
+  {
+    "T": 10200,
+    "B": 12,
+    "kind": "hqq",
+    "nbits": 4,
+    "walk_bytes": 9515040768,
+    "bf16_bytes": 32866566144,
+    "pct_of_bf16": 28.95
+  },
+  {
+    "T": 10200,
+    "B": 12,
+    "kind": "hqq",
+    "nbits": 3,
+    "walk_bytes": 8499757056,
+    "bf16_bytes": 32866566144,
+    "pct_of_bf16": 25.86
+  }
+]

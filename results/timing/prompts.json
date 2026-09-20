@@ -1,0 +1,84 @@
+{
+ "benchmarks": {
+  "hotpotQA": {
+   "bench_key": "hotpotqa_st40_full",
+   "instruction_const": "QA_REASON_V3",
+   "instruction": "You are given context and a question. Answer in two steps and do BOTH.\nStep 1 (Reasoning): 1-2 sentences using the context to work out the answer (who/what/when).\nStep 2 (Answer): on a new line write 'Final Answer:' then ONLY the answer in a few words.\n\nRules:\n- ALWAYS commit to one concrete best answer. NEVER reply 'Not mentioned', 'not provided', 'unavailable', or hedge \u2014 even if unsure, give your single most likely answer from the context.\n- After 'Final Answer:' put ONLY the answer span: no notes, no parentheticals, no caveats, no extra sentence.\n- No angle-bracket placeholders; don't repeat these instructions. Output nothing after the 'Final Answer:' line.\n",
+   "instruction_sha": "c1a237e09583a6a5",
+   "metric": "token_f1",
+   "max_new": 200,
+   "ref": "hotpotqa_st40_full_ref.jsonl",
+   "max_conv": 600,
+   "order": "random",
+   "seed": 42,
+   "doc_number": 0,
+   "family": "multiturn-accumulate"
+  },
+  "MuSiQue": {
+   "bench_key": "musique_st40_full",
+   "instruction_const": "QA_REASON_V3",
+   "instruction": "You are given context and a question. Answer in two steps and do BOTH.\nStep 1 (Reasoning): 1-2 sentences using the context to work out the answer (who/what/when).\nStep 2 (Answer): on a new line write 'Final Answer:' then ONLY the answer in a few words.\n\nRules:\n- ALWAYS commit to one concrete best answer. NEVER reply 'Not mentioned', 'not provided', 'unavailable', or hedge \u2014 even if unsure, give your single most likely answer from the context.\n- After 'Final Answer:' put ONLY the answer span: no notes, no parentheticals, no caveats, no extra sentence.\n- No angle-bracket placeholders; don't repeat these instructions. Output nothing after the 'Final Answer:' line.\n",
+   "instruction_sha": "c1a237e09583a6a5",
+   "metric": "token_f1",
+   "max_new": 200,
+   "ref": "musique_st40_full_ref.jsonl",
+   "max_conv": 2417,
+   "order": "first-N",
+   "seed": null,
+   "doc_number": 0,
+   "family": "multiturn-accumulate"
+  },
+  "LooGLE": {
+   "bench_key": "loogle",
+   "instruction_const": "QA_REASON_V3",
+   "instruction": "You are given context and a question. Answer in two steps and do BOTH.\nStep 1 (Reasoning): 1-2 sentences using the context to work out the answer (who/what/when).\nStep 2 (Answer): on a new line write 'Final Answer:' then ONLY the answer in a few words.\n\nRules:\n- ALWAYS commit to one concrete best answer. NEVER reply 'Not mentioned', 'not provided', 'unavailable', or hedge \u2014 even if unsure, give your single most likely answer from the context.\n- After 'Final Answer:' put ONLY the answer span: no notes, no parentheticals, no caveats, no extra sentence.\n- No angle-bracket placeholders; don't repeat these instructions. Output nothing after the 'Final Answer:' line.\n",
+   "instruction_sha": "c1a237e09583a6a5",
+   "metric": "token_f1",
+   "max_new": 200,
+   "ref": "loogle_reuse_ref.jsonl",
+   "max_conv": 70,
+   "order": "doc",
+   "seed": null,
+   "doc_number": 0,
+   "family": "multiturn-accumulate"
+  },
+  "LoCoMo": {
+   "bench_key": "locomo",
+   "instruction_const": "QA_REASON_V3_LOCOMO",
+   "instruction": "You are answering a question about a long multi-session conversation (each session is dated). Answer in two steps.\nStep 1 (Reasoning): ONE sentence \u2014 which turn/session answers it, and for a 'when' question resolve the actual date (e.g. if someone says they did it 'yesterday' in a session dated 8 May 2023, the answer is 7 May 2023).\nStep 2 (Answer): on a new line write 'Final Answer:' then ONLY the short answer (a date, name, place, or brief phrase).\n\nRules:\n- ALWAYS commit to your single best answer. NEVER reply 'Not mentioned' or 'not provided' \u2014 give the most likely answer.\n- After 'Final Answer:' put ONLY the answer: no notes, parentheticals, or caveats.\n- Phrase 'when' answers like the ground truth (e.g. '7 May 2023', 'the week before 9 June 2023').\n- No angle-bracket placeholders; output nothing after the 'Final Answer:' line.\n",
+   "instruction_sha": "cde481fefb96265e",
+   "metric": "token_f1",
+   "max_new": 200,
+   "ref": "locomo_reuse_ref_full.jsonl",
+   "max_conv": 15,
+   "order": "conversation",
+   "seed": null,
+   "doc_number": null,
+   "family": "multiturn-accumulate"
+  }
+ },
+ "chat_wrap": {
+  "Qwen2.5 (CHAT_WRAP=0)": {
+   "open": "",
+   "assistant": "",
+   "reopen": ""
+  },
+  "OLMo-3 (CHAT_WRAP=1)": {
+   "open": "<|im_start|>user\n",
+   "assistant": "<|im_end|>\n<|im_start|>assistant\n",
+   "reopen": "<|im_end|>\n<|im_start|>user\n"
+  },
+  "Gemma-3 (CHAT_WRAP=gemma)": {
+   "open": "<bos><start_of_turn>user\n",
+   "assistant": "<end_of_turn>\n<start_of_turn>model\n",
+   "reopen": "<end_of_turn>\n<start_of_turn>user\n"
+  }
+ },
+ "question_turn": "\n\nQuestion: <the question>\nAnswer by reasoning first: in 1-2 sentences, use the context above to work out the answer (say which turn/fact and, for a 'when' question, which session date). Then on a new line write 'Final Answer:' followed by the short answer.\n",
+ "history_block": "\n\nQuestion: <an earlier question>\nAnswer by reasoning first: in 1-2 sentences, use the context above to work out the answer (say which turn/fact and, for a 'when' question, which session date). Then on a new line write 'Final Answer:' followed by the short answer.\nFinal Answer: <its reference answer>\n",
+ "passage_block": "[Evidence Passage]\nText:\n<passage 1>\n\n[Evidence Passage]\nText:\n<passage 2>",
+ "assembly": "The prompt is the instruction, then a blank line, then the passage block, then the question turn. When the benchmark accumulates, each answered turn is committed as a history block and the next turn's new passages and question follow it in the same sequence.",
+ "branch_kl_prompt": "You are given context and a question. Answer in two steps and do BOTH.\nStep 1 (Reasoning): 1-2 sentences using the context to work out the answer (who/what/when).\nStep 2 (Answer): on a new line write 'Final Answer:' then ONLY the answer in a few words.\n\nRules:\n- ALWAYS commit to one concrete best answer. NEVER reply 'Not mentioned', 'not provided', 'unavailable', or hedge \u2014 even if unsure, give your single most likely answer from the context.\n- After 'Final Answer:' put ONLY the answer span: no notes, no parentheticals, no caveats, no extra sentence.\n- No angle-bracket placeholders; don't repeat these instructions. Output nothing after the 'Final Answer:' line.\nContext:\n\n\nQuestion: <the question>\n",
+ "branch_kl_sha": "ce9b22df37c57c22",
+ "_source": "scripts/dump_prompts.py, from bench_config / qa_prompts / mtrag_accum / reason_fix / chat_wrap: the strings the harnesses build, not a transcription"
+}

@@ -1,0 +1,16 @@
+# The versions these experiments actually ran on, under Python 3.11.9.
+# torch is the CUDA 12.8 aarch64 build for GH200.
+torch==2.11.0
+transformers==4.57.6
+peft==0.19.1
+accelerate==1.10.1
+datasets==2.21.0
+safetensors==0.8.0
+numpy==2.4.6
+flash-attn==2.8.3.post1
+hqq==0.2.8.post1
+kvpress==0.5.3
+rank-bm25==0.2.2
+rouge-score==0.1.2
+tqdm==4.68.3
+matplotlib==3.11.0

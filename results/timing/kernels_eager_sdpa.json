@@ -1,0 +1,172 @@
+{
+  "tag": "eager_sdpa",
+  "attn_impl": "sdpa",
+  "static": false,
+  "compile_mode": "-",
+  "B": 6,
+  "ctx": 27500,
+  "alloc": "expandable_segments:True",
+  "node": "gh047",
+  "job": "3035559",
+  "total_gpu_ms_per_step": 30.010968499999137,
+  "launches_per_step": 2502.1666666666665,
+  "buckets": {
+    "KV write / copy": 11.487545083332803,
+    "other": 4.857033750000494,
+    "elementwise / norm / rope": 2.7928030833330073,
+    "matmul (projections + MLP)": 4.875012166665933,
+    "attention": 5.998574416666908
+  },
+  "top": [
+    {
+      "ms": 5.506764666666506,
+      "n": 114.0,
+      "kernel": "aten::cat",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 5.384107416666474,
+      "n": 56.0,
+      "kernel": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_vectorized<at::native::(anonymous namespace)::OpaqueType<2u>, unsigned int, 3, 128, 1, 16, 8>(char*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<2u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 4.170948583332836,
+      "n": 113.0,
+      "kernel": "aten::mm",
+      "bucket": "other"
+    },
+    {
+      "ms": 3.034158416666949,
+      "n": 28.0,
+      "kernel": "aten::_cudnn_attention_forward",
+      "bucket": "attention"
+    },
+    {
+      "ms": 2.9644159999999586,
+      "n": 28.0,
+      "kernel": "cudnn_generated_fort_native_sdpa_sm80_flash_fprop_wmma_f16_knob_35_16x128x128_1x4x1_cga1x1x1_kernel0_0",
+      "bucket": "attention"
+    },
+    {
+      "ms": 2.291604583332689,
+      "n": 56.0,
+      "kernel": "nvjet_tst_192x8_64x8_4x1_v_bz_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 1.1367518333336872,
+      "n": 28.0,
+      "kernel": "nvjet_tst_64x8_64x16_2x1_v_bz_splitK_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.7246923333331791,
+      "n": 84.0,
+      "kernel": "aten::addmm",
+      "bucket": "elementwise / norm / rope"
+    },
+    {
+      "ms": 0.5744943333332369,
+      "n": 84.0,
+      "kernel": "nvjet_tst_64x8_64x16_4x1_v_bz_splitK_bias_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.5505720833334224,
+      "n": 257.0,
+      "kernel": "aten::mul",
+      "bucket": "elementwise / norm / rope"
+    },
+    {
+      "ms": 0.4046410833334328,
+      "n": 169.0,
+      "kernel": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<c10::BFloat16, c10::BFloat16, c10::BFloat16, at::native::binary_internal::MulFunctor<float> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<c10::BFloat16, c10::BFloat16, c10::BFloat16, at::native::binary_internal::MulFunctor<float> > const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<c10::BFloat16, c10::BFloat16, c10::BFloat16, at::native::binary_internal::MulFunctor<float> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<c10::BFloat16, c10::BFloat16, c10::BFloat16, at::native::binary_internal::MulFunctor<float> > const&)::{lambda(int)#1})",
+      "bucket": "elementwise / norm / rope"
+    },
+    {
+      "ms": 0.29922999999999106,
+      "n": 1.0,
+      "kernel": "nvjet_tst_384x8_64x4_2x1_v_bz_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.29579433333336297,
+      "n": 28.0,
+      "kernel": "nvjet_tst_64x8_64x16_4x1_v_bz_splitK_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.23598933333321012,
+      "n": 118.0,
+      "kernel": "aten::copy_",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.21073491666705033,
+      "n": 57.0,
+      "kernel": "void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::MeanOps<float, float, float, float>, unsigned int, float, 4, 4> >(at::native::ReduceOp<float, at::native::MeanOps<float, float, float, float>, unsigned int, float, 4, 4>)",
+      "bucket": "elementwise / norm / rope"
+    },
+    {
+      "ms": 0.21073491666705033,
+      "n": 57.0,
+      "kernel": "aten::mean",
+      "bucket": "other"
+    },
+    {
+      "ms": 0.2013083333325254,
+      "n": 171.0,
+      "kernel": "aten::add",
+      "bucket": "elementwise / norm / rope"
+    },
+    {
+      "ms": 0.1696531666668414,
+      "n": 58.0,
+      "kernel": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul>, 4, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1> >(int, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1>)",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.15019799999994235,
+      "n": 84.0,
+      "kernel": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false, float, __nv_bfloat16, __nv_bfloat16, true, true, false>(cublasLt::cublasSplitKParams<float>, float const*, __nv_bfloat16 const*, float*, __nv_bfloat16*, float const*, float const*, __nv_bfloat16 const*, float const*, __nv_bfloat16*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.13096908333275137,
+      "n": 112.0,
+      "kernel": "void at::native::vectorized_elementwise_kernel<8, at::native::CUDAFunctor_add<c10::BFloat16>, std::array<char*, 3ul> >(int, at::native::CUDAFunctor_add<c10::BFloat16>, std::array<char*, 3ul>)",
+      "bucket": "elementwise / norm / rope"
+    },
+    {
+      "ms": 0.12567774999962908,
+      "n": 56.0,
+      "kernel": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false, float, __nv_bfloat16, __nv_bfloat16, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __nv_bfloat16 const*, float*, __nv_bfloat16*, float const*, float const*, __nv_bfloat16 const*, float const*, __nv_bfloat16*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.11911600000002576,
+      "n": 56.0,
+      "kernel": "void at::native::(anonymous namespace)::CatArrayBatchedCopy<at::native::(anonymous namespace)::OpaqueType<2u>, unsigned int, 4, 64, 64>(at::native::(anonymous namespace)::OpaqueType<2u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<2u>, unsigned int, 64, 64>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.10985983333404716,
+      "n": 56.0,
+      "kernel": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::neg_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#9}::operator()() const::{lambda(c10::BFloat16)#1}>(at::TensorIteratorBase&, at::native::neg_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#9}::operator()() const::{lambda(c10::BFloat16)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::neg_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#9}::operator()() const::{lambda(c10::BFloat16)#1}>(at::TensorIteratorBase&, at::native::neg_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#9}::operator()() const::{lambda(c10::BFloat16)#1} const&)::{lambda(int)#1})",
+      "bucket": "elementwise / norm / rope"
+    },
+    {
+      "ms": 0.10985983333404716,
+      "n": 56.0,
+      "kernel": "aten::neg",
+      "bucket": "other"
+    },
+    {
+      "ms": 0.10787083333333915,
+      "n": 1.0,
+      "kernel": "Lazy Function Loading",
+      "bucket": "other"
+    }
+  ]
+}

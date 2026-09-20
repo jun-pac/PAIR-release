@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "ctx": 2000,
+      "wall_ms": 323.892,
+      "cpu_ms": 323.663,
+      "gpu_ms": 0.229,
+      "roofline_ms": 4.424,
+      "off_roofline": 73.2
+    },
+    {
+      "ctx": 8000,
+      "wall_ms": 325.82,
+      "cpu_ms": 325.595,
+      "gpu_ms": 0.224,
+      "roofline_ms": 4.998,
+      "off_roofline": 65.19
+    },
+    {
+      "ctx": 16000,
+      "wall_ms": 323.75,
+      "cpu_ms": 323.524,
+      "gpu_ms": 0.226,
+      "roofline_ms": 5.763,
+      "off_roofline": 56.18
+    },
+    {
+      "ctx": 27500,
+      "wall_ms": 327.008,
+      "cpu_ms": 326.775,
+      "gpu_ms": 0.233,
+      "roofline_ms": 6.862,
+      "off_roofline": 47.66
+    }
+  ],
+  "cfg": {
+    "B": 6,
+    "static": false,
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "mode": null,
+    "attn": "sdpa",
+    "node": "gh037",
+    "job": "3030518"
+  }
+}

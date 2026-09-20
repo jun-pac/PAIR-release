@@ -1,0 +1,30 @@
+{
+  "tag": "teacher32b",
+  "model": "Qwen/Qwen2.5-32B-Instruct",
+  "B": 3,
+  "ctx": 27500,
+  "nstep": 200,
+  "node": "gh010",
+  "job": "3041349",
+  "alloc": "expandable_segments:True",
+  "arms": {
+    "A_eager_flash_dynamic": {
+      "wall": 65.26482808355165,
+      "gpu": 84.93955933333307,
+      "launches": 5866.5
+    },
+    "B_flash_kvcache_eager": {
+      "wall": 66.15201183376485,
+      "gpu": 53.11582133333379,
+      "launches": 5102.083333333333,
+      "argmax_match": 1.0,
+      "maxdiff0": 0.0
+    },
+    "C_flash_kvcache_cudagraph": {
+      "wall": 31.122031666503364,
+      "gpu": 30.289892000000147,
+      "launches": 2710.75,
+      "argmax_match": 1.0
+    }
+  }
+}

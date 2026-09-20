@@ -1,0 +1,41 @@
+{
+ "n": 4362,
+ "examples": 60,
+ "example": 22,
+ "pair": "base (S, L): the no-adapter branches, the arms the paper's D_R/D_Q/D_oracle sentence uses",
+ "lam": 0.7,
+ "other_pair": {
+  "reader": 0.42606937885284424,
+  "query_lm": 1.3960844278335571,
+  "fused": 0.3713226020336151,
+  "lam": 0.85
+ },
+ "kl": {
+  "reader": 0.38256728649139404,
+  "query_lm": 0.7476809620857239,
+  "fused": 0.29816704988479614,
+  "oracle_switch": 0.22083957493305206
+ },
+ "closer_branch": {
+  "reader_share": 0.5903255387436955,
+  "query_lm_share": 0.40967446125630447,
+  "reader_lead": 0.892458975315094,
+  "query_lm_lead": 0.3947712481021881
+ },
+ "fused_below_both": 0.3771205868867492,
+ "fused_minus_oracle": 0.07732749730348587,
+ "gate": {
+  "disagree_positions": 894,
+  "follows_reader_when_lm_less_certain": 0.9212007504690432,
+  "follows_reader_when_lm_more_certain": 0.44321329639889195
+ },
+ "source": "scripts/fusion_intuition.py over the teacher-forced dump (job 3012898, 60 hotpotQA d40 examples; the pair field says which branches carry the numbers, TASK span = reason+answer with the Final Answer marker excluded, clipped at the teacher's first <|endoftext|>)",
+ "example_end": {
+  "reader": 4.292413234710693,
+  "query_lm": 0.00021389189350884408,
+  "fused": 0.707288920879364
+ },
+ "example_question": "Who was born first, Sarah Jacobson or Arthur Hiller?",
+ "example_gold": "Arthur Hiller",
+ "example_positions": 64
+}

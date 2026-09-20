@@ -1,0 +1,22 @@
+{
+  "B": 8,
+  "ctx": 27500,
+  "lmctx": 200,
+  "lam": 0.85,
+  "nstep": 200,
+  "node": "gh015",
+  "job": "3041398",
+  "alloc": "expandable_segments:True",
+  "arms": {
+    "A_harness_eager": {
+      "wall": 103.46150390493374
+    },
+    "B_fused_kvcache_eager": {
+      "argmax_match": 1.0
+    },
+    "C_fused_kvcache_cudagraph": {
+      "argmax_match": 1.0,
+      "wall": 36.689259247699134
+    }
+  }
+}

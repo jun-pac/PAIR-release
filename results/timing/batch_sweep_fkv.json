@@ -1,0 +1,1352 @@
+{
+ "d120": {
+  "docs": 120,
+  "ctx_ktok": 18.0,
+  "floor": {
+   "16": {
+    "batch": 16,
+    "ans_s": 1.0962,
+    "ans_s_full": 1.0962,
+    "tail_rows": 0,
+    "n_batches": 6,
+    "n_full_batches": 6,
+    "e2e_s": 87.6,
+    "prefill_s": 66.5,
+    "tok_s_decode": 469.43,
+    "answers": 96,
+    "node": "gh019",
+    "job": "3134479",
+    "file": "bsw_d120_floor7_b16.jsonl",
+    "f1_mean": 0.5858,
+    "correct_share": {
+     "1.0": 0.5,
+     "0.8": 0.5208,
+     "0.5": 0.6042
+    }
+   },
+   "2": {
+    "batch": 2,
+    "ans_s": 0.7588,
+    "ans_s_full": 0.7588,
+    "tail_rows": 0,
+    "n_batches": 48,
+    "n_full_batches": 48,
+    "e2e_s": 126.5,
+    "prefill_s": 63.6,
+    "tok_s_decode": 148.67,
+    "answers": 96,
+    "node": "gh019",
+    "job": "3134479",
+    "file": "bsw_d120_floor7_b2.jsonl",
+    "f1_mean": 0.5723,
+    "correct_share": {
+     "1.0": 0.4792,
+     "0.8": 0.5104,
+     "0.5": 0.5938
+    }
+   },
+   "24": {
+    "batch": 24,
+    "ans_s": 1.1144,
+    "ans_s_full": 1.1144,
+    "tail_rows": 0,
+    "n_batches": 4,
+    "n_full_batches": 4,
+    "e2e_s": 86.1,
+    "prefill_s": 68.1,
+    "tok_s_decode": 582.04,
+    "answers": 96,
+    "node": "gh019",
+    "job": "3134479",
+    "file": "bsw_d120_floor7_b24.jsonl",
+    "f1_mean": 0.556,
+    "correct_share": {
+     "1.0": 0.4688,
+     "0.8": 0.4896,
+     "0.5": 0.5729
+    }
+   },
+   "4": {
+    "batch": 4,
+    "ans_s": 0.9092,
+    "ans_s_full": 0.9092,
+    "tail_rows": 0,
+    "n_batches": 24,
+    "n_full_batches": 24,
+    "e2e_s": 105.6,
+    "prefill_s": 63.1,
+    "tok_s_decode": 222.86,
+    "answers": 96,
+    "node": "gh019",
+    "job": "3134479",
+    "file": "bsw_d120_floor7_b4.jsonl",
+    "f1_mean": 0.5657,
+    "correct_share": {
+     "1.0": 0.4792,
+     "0.8": 0.5104,
+     "0.5": 0.5833
+    }
+   },
+   "8": {
+    "batch": 8,
+    "ans_s": 1.0098,
+    "ans_s_full": 1.0098,
+    "tail_rows": 0,
+    "n_batches": 12,
+    "n_full_batches": 12,
+    "e2e_s": 95.1,
+    "prefill_s": 65.4,
+    "tok_s_decode": 338.36,
+    "answers": 96,
+    "node": "gh019",
+    "job": "3134479",
+    "file": "bsw_d120_floor7_b8.jsonl",
+    "f1_mean": 0.545,
+    "correct_share": {
+     "1.0": 0.4583,
+     "0.8": 0.4792,
+     "0.5": 0.5625
+    }
+   }
+  },
+  "ours": {
+   "2": {
+    "batch": 2,
+    "ans_s": 0.4466,
+    "ans_s_full": 0.4466,
+    "tail_rows": 0,
+    "n_batches": 48,
+    "n_full_batches": 48,
+    "e2e_s": 215.0,
+    "prefill_s": 73.9,
+    "tok_s_decode": 46.81,
+    "answers": 96,
+    "node": "gh019",
+    "job": "3134479",
+    "file": "bsw_d120_ours_b2.jsonl",
+    "f1_mean": 0.7067,
+    "correct_share": {
+     "1.0": 0.5729,
+     "0.8": 0.625,
+     "0.5": 0.75
+    }
+   },
+   "3": {
+    "batch": 3,
+    "ans_s": 0.5362,
+    "ans_s_full": 0.5362,
+    "tail_rows": 0,
+    "n_batches": 32,
+    "n_full_batches": 32,
+    "e2e_s": 179.0,
+    "prefill_s": 73.7,
+    "tok_s_decode": 62.85,
+    "answers": 96,
+    "node": "gh019",
+    "job": "3134479",
+    "file": "bsw_d120_ours_b3.jsonl",
+    "f1_mean": 0.7101,
+    "correct_share": {
+     "1.0": 0.5729,
+     "0.8": 0.625,
+     "0.5": 0.75
+    }
+   },
+   "4": {
+    "batch": 4,
+    "ans_s": 0.6239,
+    "ans_s_full": 0.6239,
+    "tail_rows": 0,
+    "n_batches": 24,
+    "n_full_batches": 24,
+    "e2e_s": 153.9,
+    "prefill_s": 72.8,
+    "tok_s_decode": 80.77,
+    "answers": 96,
+    "node": "gh019",
+    "job": "3134479",
+    "file": "bsw_d120_ours_b4.jsonl",
+    "f1_mean": 0.7206,
+    "correct_share": {
+     "1.0": 0.5833,
+     "0.8": 0.6354,
+     "0.5": 0.7604
+    }
+   },
+   "6": {
+    "batch": 6,
+    "ans_s": 0.7372,
+    "ans_s_full": 0.7372,
+    "tail_rows": 0,
+    "n_batches": 16,
+    "n_full_batches": 16,
+    "e2e_s": 130.2,
+    "prefill_s": 72.7,
+    "tok_s_decode": 115.17,
+    "answers": 96,
+    "node": "gh019",
+    "job": "3134479",
+    "file": "bsw_d120_ours_b6.jsonl",
+    "f1_mean": 0.7067,
+    "correct_share": {
+     "1.0": 0.5729,
+     "0.8": 0.625,
+     "0.5": 0.75
+    }
+   }
+  },
+  "teacher": {
+   "2": {
+    "batch": 2,
+    "ans_s": 0.2422,
+    "ans_s_full": 0.2422,
+    "tail_rows": 0,
+    "n_batches": 48,
+    "n_full_batches": 48,
+    "e2e_s": 396.3,
+    "prefill_s": 262.0,
+    "tok_s_decode": 48.18,
+    "answers": 96,
+    "node": "gh019",
+    "job": "3134479",
+    "file": "bsw_d120_teacher_b2.jsonl",
+    "f1_mean": 0.6749,
+    "correct_share": {
+     "1.0": 0.5104,
+     "0.8": 0.6042,
+     "0.5": 0.7292
+    }
+   },
+   "3": {
+    "batch": 3,
+    "ans_s": 0.2595,
+    "ans_s_full": 0.2595,
+    "tail_rows": 0,
+    "n_batches": 32,
+    "n_full_batches": 32,
+    "e2e_s": 370.0,
+    "prefill_s": 263.0,
+    "tok_s_decode": 60.0,
+    "answers": 96,
+    "node": "gh019",
+    "job": "3134479",
+    "file": "bsw_d120_teacher_b3.jsonl",
+    "f1_mean": 0.6824,
+    "correct_share": {
+     "1.0": 0.5312,
+     "0.8": 0.625,
+     "0.5": 0.7292
+    }
+   },
+   "4": {
+    "batch": 4,
+    "ans_s": 0.2732,
+    "ans_s_full": 0.2732,
+    "tail_rows": 0,
+    "n_batches": 24,
+    "n_full_batches": 24,
+    "e2e_s": 351.4,
+    "prefill_s": 264.7,
+    "tok_s_decode": 73.65,
+    "answers": 96,
+    "node": "gh019",
+    "job": "3134479",
+    "file": "bsw_d120_teacher_b4.jsonl",
+    "f1_mean": 0.6946,
+    "correct_share": {
+     "1.0": 0.5417,
+     "0.8": 0.6354,
+     "0.5": 0.7396
+    }
+   }
+  },
+  "oom": {
+   "teacher": 6,
+   "ours": 8,
+   "floor": 32
+  },
+  "correct_share_pooled": {
+   "teacher": {
+    "1.0": 0.5278,
+    "0.8": 0.6215,
+    "0.5": 0.7327,
+    "rungs": 3,
+    "spread_1.0": 0.0313
+   },
+   "ours": {
+    "1.0": 0.5755,
+    "0.8": 0.6276,
+    "0.5": 0.7526,
+    "rungs": 4,
+    "spread_1.0": 0.0104
+   },
+   "floor": {
+    "1.0": 0.4771,
+    "0.8": 0.5021,
+    "0.5": 0.5833,
+    "rungs": 5,
+    "spread_1.0": 0.0417
+   }
+  }
+ },
+ "d160": {
+  "docs": 160,
+  "ctx_ktok": 23.3,
+  "floor": {
+   "12": {
+    "batch": 12,
+    "ans_s": 0.7839,
+    "ans_s_full": 0.7839,
+    "tail_rows": 0,
+    "n_batches": 8,
+    "n_full_batches": 8,
+    "e2e_s": 122.5,
+    "prefill_s": 94.9,
+    "tok_s_decode": 379.14,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d160_floor7_b12.jsonl",
+    "f1_mean": 0.5294,
+    "correct_share": {
+     "1.0": 0.4375,
+     "0.8": 0.4792,
+     "0.5": 0.5417
+    }
+   },
+   "16": {
+    "batch": 16,
+    "ans_s": 0.8067,
+    "ans_s_full": 0.8067,
+    "tail_rows": 0,
+    "n_batches": 6,
+    "n_full_batches": 6,
+    "e2e_s": 119.0,
+    "prefill_s": 95.0,
+    "tok_s_decode": 445.84,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d160_floor7_b16.jsonl",
+    "f1_mean": 0.5751,
+    "correct_share": {
+     "1.0": 0.4792,
+     "0.8": 0.5104,
+     "0.5": 0.5938
+    }
+   },
+   "2": {
+    "batch": 2,
+    "ans_s": 0.6012,
+    "ans_s_full": 0.6012,
+    "tail_rows": 0,
+    "n_batches": 48,
+    "n_full_batches": 48,
+    "e2e_s": 159.7,
+    "prefill_s": 92.5,
+    "tok_s_decode": 144.13,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d160_floor7_b2.jsonl",
+    "f1_mean": 0.5768,
+    "correct_share": {
+     "1.0": 0.4792,
+     "0.8": 0.5208,
+     "0.5": 0.5938
+    }
+   },
+   "24": {
+    "batch": 24,
+    "ans_s": 0.8181,
+    "ans_s_full": 0.8181,
+    "tail_rows": 0,
+    "n_batches": 4,
+    "n_full_batches": 4,
+    "e2e_s": 117.3,
+    "prefill_s": 96.3,
+    "tok_s_decode": 518.3,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d160_floor7_b24.jsonl",
+    "f1_mean": 0.5352,
+    "correct_share": {
+     "1.0": 0.4479,
+     "0.8": 0.4792,
+     "0.5": 0.5521
+    }
+   },
+   "4": {
+    "batch": 4,
+    "ans_s": 0.6974,
+    "ans_s_full": 0.6974,
+    "tail_rows": 0,
+    "n_batches": 24,
+    "n_full_batches": 24,
+    "e2e_s": 137.7,
+    "prefill_s": 91.5,
+    "tok_s_decode": 213.18,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d160_floor7_b4.jsonl",
+    "f1_mean": 0.5427,
+    "correct_share": {
+     "1.0": 0.4375,
+     "0.8": 0.4688,
+     "0.5": 0.5625
+    }
+   },
+   "8": {
+    "batch": 8,
+    "ans_s": 0.7479,
+    "ans_s_full": 0.7479,
+    "tail_rows": 0,
+    "n_batches": 12,
+    "n_full_batches": 12,
+    "e2e_s": 128.4,
+    "prefill_s": 93.7,
+    "tok_s_decode": 301.07,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d160_floor7_b8.jsonl",
+    "f1_mean": 0.5519,
+    "correct_share": {
+     "1.0": 0.4688,
+     "0.8": 0.5104,
+     "0.5": 0.5625
+    }
+   }
+  },
+  "ours": {
+   "2": {
+    "batch": 2,
+    "ans_s": 0.3845,
+    "ans_s_full": 0.3845,
+    "tail_rows": 0,
+    "n_batches": 48,
+    "n_full_batches": 48,
+    "e2e_s": 249.6,
+    "prefill_s": 104.1,
+    "tok_s_decode": 45.51,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d160_ours_b2.jsonl",
+    "f1_mean": 0.6827,
+    "correct_share": {
+     "1.0": 0.5521,
+     "0.8": 0.5938,
+     "0.5": 0.7292
+    }
+   },
+   "3": {
+    "batch": 3,
+    "ans_s": 0.4525,
+    "ans_s_full": 0.4525,
+    "tail_rows": 0,
+    "n_batches": 32,
+    "n_full_batches": 32,
+    "e2e_s": 212.2,
+    "prefill_s": 103.5,
+    "tok_s_decode": 61.92,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d160_ours_b3.jsonl",
+    "f1_mean": 0.6977,
+    "correct_share": {
+     "1.0": 0.5625,
+     "0.8": 0.6146,
+     "0.5": 0.7396
+    }
+   },
+   "4": {
+    "batch": 4,
+    "ans_s": 0.512,
+    "ans_s_full": 0.512,
+    "tail_rows": 0,
+    "n_batches": 24,
+    "n_full_batches": 24,
+    "e2e_s": 187.5,
+    "prefill_s": 102.0,
+    "tok_s_decode": 78.39,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d160_ours_b4.jsonl",
+    "f1_mean": 0.7089,
+    "correct_share": {
+     "1.0": 0.5833,
+     "0.8": 0.625,
+     "0.5": 0.75
+    }
+   },
+   "6": {
+    "batch": 6,
+    "ans_s": 0.5908,
+    "ans_s_full": 0.5908,
+    "tail_rows": 0,
+    "n_batches": 16,
+    "n_full_batches": 16,
+    "e2e_s": 162.5,
+    "prefill_s": 101.9,
+    "tok_s_decode": 111.03,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d160_ours_b6.jsonl",
+    "f1_mean": 0.7018,
+    "correct_share": {
+     "1.0": 0.5625,
+     "0.8": 0.6146,
+     "0.5": 0.7396
+    }
+   }
+  },
+  "teacher": {
+   "2": {
+    "batch": 2,
+    "ans_s": 0.1841,
+    "ans_s_full": 0.1841,
+    "tail_rows": 0,
+    "n_batches": 48,
+    "n_full_batches": 48,
+    "e2e_s": 521.5,
+    "prefill_s": 374.0,
+    "tok_s_decode": 45.5,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d160_teacher_b2.jsonl",
+    "f1_mean": 0.5647,
+    "correct_share": {
+     "1.0": 0.4271,
+     "0.8": 0.5,
+     "0.5": 0.5833
+    }
+   },
+   "3": {
+    "batch": 3,
+    "ans_s": 0.1952,
+    "ans_s_full": 0.1952,
+    "tail_rows": 0,
+    "n_batches": 32,
+    "n_full_batches": 32,
+    "e2e_s": 491.8,
+    "prefill_s": 375.6,
+    "tok_s_decode": 59.11,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d160_teacher_b3.jsonl",
+    "f1_mean": 0.5333,
+    "correct_share": {
+     "1.0": 0.4062,
+     "0.8": 0.4583,
+     "0.5": 0.5521
+    }
+   }
+  },
+  "oom": {
+   "teacher": 4,
+   "ours": 8,
+   "floor": 32
+  },
+  "correct_share_pooled": {
+   "teacher": {
+    "1.0": 0.4166,
+    "0.8": 0.4792,
+    "0.5": 0.5677,
+    "rungs": 2,
+    "spread_1.0": 0.0209
+   },
+   "ours": {
+    "1.0": 0.5651,
+    "0.8": 0.612,
+    "0.5": 0.7396,
+    "rungs": 4,
+    "spread_1.0": 0.0312
+   },
+   "floor": {
+    "1.0": 0.4583,
+    "0.8": 0.4948,
+    "0.5": 0.5677,
+    "rungs": 6,
+    "spread_1.0": 0.0417
+   }
+  }
+ },
+ "d40": {
+  "docs": 40,
+  "ctx_ktok": 6.1,
+  "floor": {
+   "16": {
+    "batch": 16,
+    "ans_s": 2.986,
+    "ans_s_full": 2.986,
+    "tail_rows": 0,
+    "n_batches": 6,
+    "n_full_batches": 6,
+    "e2e_s": 32.1,
+    "prefill_s": 17.0,
+    "tok_s_decode": 488.92,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_floor7_b16.jsonl",
+    "f1_mean": 0.5864,
+    "correct_share": {
+     "1.0": 0.4688,
+     "0.8": 0.5312,
+     "0.5": 0.625
+    }
+   },
+   "2": {
+    "batch": 2,
+    "ans_s": 1.4872,
+    "ans_s_full": 1.4872,
+    "tail_rows": 0,
+    "n_batches": 48,
+    "n_full_batches": 48,
+    "e2e_s": 64.6,
+    "prefill_s": 16.9,
+    "tok_s_decode": 146.14,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_floor7_b2.jsonl",
+    "f1_mean": 0.5807,
+    "correct_share": {
+     "1.0": 0.4896,
+     "0.8": 0.5312,
+     "0.5": 0.6042
+    }
+   },
+   "32": {
+    "batch": 32,
+    "ans_s": 3.3262,
+    "ans_s_full": 3.3262,
+    "tail_rows": 0,
+    "n_batches": 3,
+    "n_full_batches": 3,
+    "e2e_s": 28.9,
+    "prefill_s": 18.5,
+    "tok_s_decode": 750.51,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_floor7_b32.jsonl",
+    "f1_mean": 0.5881,
+    "correct_share": {
+     "1.0": 0.4792,
+     "0.8": 0.5312,
+     "0.5": 0.625
+    }
+   },
+   "4": {
+    "batch": 4,
+    "ans_s": 1.9752,
+    "ans_s_full": 1.9752,
+    "tail_rows": 0,
+    "n_batches": 24,
+    "n_full_batches": 24,
+    "e2e_s": 48.6,
+    "prefill_s": 16.5,
+    "tok_s_decode": 218.38,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_floor7_b4.jsonl",
+    "f1_mean": 0.5794,
+    "correct_share": {
+     "1.0": 0.4792,
+     "0.8": 0.5208,
+     "0.5": 0.6146
+    }
+   },
+   "48": {
+    "batch": 48,
+    "ans_s": 3.3755,
+    "ans_s_full": 3.3755,
+    "tail_rows": 0,
+    "n_batches": 2,
+    "n_full_batches": 2,
+    "e2e_s": 28.4,
+    "prefill_s": 19.5,
+    "tok_s_decode": 869.3,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_floor7_b48.jsonl",
+    "f1_mean": 0.5914,
+    "correct_share": {
+     "1.0": 0.4792,
+     "0.8": 0.5312,
+     "0.5": 0.625
+    }
+   },
+   "64": {
+    "batch": 64,
+    "ans_s": 3.3399,
+    "ans_s_full": 3.1417,
+    "tail_rows": 32,
+    "n_batches": 2,
+    "n_full_batches": 1,
+    "e2e_s": 28.7,
+    "prefill_s": 19.8,
+    "tok_s_decode": 892.19,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_floor7_b64.jsonl",
+    "f1_mean": 0.5683,
+    "correct_share": {
+     "1.0": 0.4583,
+     "0.8": 0.5104,
+     "0.5": 0.6146
+    }
+   },
+   "8": {
+    "batch": 8,
+    "ans_s": 2.5738,
+    "ans_s_full": 2.5738,
+    "tail_rows": 0,
+    "n_batches": 12,
+    "n_full_batches": 12,
+    "e2e_s": 37.3,
+    "prefill_s": 16.4,
+    "tok_s_decode": 341.32,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_floor7_b8.jsonl",
+    "f1_mean": 0.5732,
+    "correct_share": {
+     "1.0": 0.4688,
+     "0.8": 0.5104,
+     "0.5": 0.6042
+    }
+   }
+  },
+  "ours": {
+   "12": {
+    "batch": 12,
+    "ans_s": 1.7776,
+    "ans_s_full": 1.7776,
+    "tail_rows": 0,
+    "n_batches": 8,
+    "n_full_batches": 8,
+    "e2e_s": 54.0,
+    "prefill_s": 21.9,
+    "tok_s_decode": 202.38,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_ours_b12.jsonl",
+    "f1_mean": 0.7261,
+    "correct_share": {
+     "1.0": 0.5833,
+     "0.8": 0.6458,
+     "0.5": 0.7604
+    }
+   },
+   "16": {
+    "batch": 16,
+    "ans_s": 1.9752,
+    "ans_s_full": 1.9752,
+    "tail_rows": 0,
+    "n_batches": 6,
+    "n_full_batches": 6,
+    "e2e_s": 48.6,
+    "prefill_s": 22.4,
+    "tok_s_decode": 251.29,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_ours_b16.jsonl",
+    "f1_mean": 0.7275,
+    "correct_share": {
+     "1.0": 0.5833,
+     "0.8": 0.6562,
+     "0.5": 0.7604
+    }
+   },
+   "2": {
+    "batch": 2,
+    "ans_s": 0.5668,
+    "ans_s_full": 0.5668,
+    "tail_rows": 0,
+    "n_batches": 48,
+    "n_full_batches": 48,
+    "e2e_s": 169.4,
+    "prefill_s": 24.3,
+    "tok_s_decode": 45.39,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_ours_b2.jsonl",
+    "f1_mean": 0.7392,
+    "correct_share": {
+     "1.0": 0.5938,
+     "0.8": 0.6667,
+     "0.5": 0.7708
+    }
+   },
+   "4": {
+    "batch": 4,
+    "ans_s": 0.9425,
+    "ans_s_full": 0.9425,
+    "tail_rows": 0,
+    "n_batches": 24,
+    "n_full_batches": 24,
+    "e2e_s": 101.9,
+    "prefill_s": 22.4,
+    "tok_s_decode": 82.16,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_ours_b4.jsonl",
+    "f1_mean": 0.7435,
+    "correct_share": {
+     "1.0": 0.6042,
+     "0.8": 0.6667,
+     "0.5": 0.7812
+    }
+   },
+   "6": {
+    "batch": 6,
+    "ans_s": 1.2553,
+    "ans_s_full": 1.2553,
+    "tail_rows": 0,
+    "n_batches": 16,
+    "n_full_batches": 16,
+    "e2e_s": 76.5,
+    "prefill_s": 22.1,
+    "tok_s_decode": 119.72,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_ours_b6.jsonl",
+    "f1_mean": 0.7427,
+    "correct_share": {
+     "1.0": 0.6042,
+     "0.8": 0.6771,
+     "0.5": 0.7708
+    }
+   },
+   "8": {
+    "batch": 8,
+    "ans_s": 1.4611,
+    "ans_s_full": 1.4611,
+    "tail_rows": 0,
+    "n_batches": 12,
+    "n_full_batches": 12,
+    "e2e_s": 65.7,
+    "prefill_s": 22.0,
+    "tok_s_decode": 149.18,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_ours_b8.jsonl",
+    "f1_mean": 0.7184,
+    "correct_share": {
+     "1.0": 0.5729,
+     "0.8": 0.6458,
+     "0.5": 0.75
+    }
+   }
+  },
+  "teacher": {
+   "10": {
+    "batch": 10,
+    "ans_s": 0.8131,
+    "ans_s_full": 0.8092,
+    "tail_rows": 6,
+    "n_batches": 10,
+    "n_full_batches": 9,
+    "e2e_s": 118.1,
+    "prefill_s": 74.9,
+    "tok_s_decode": 154.33,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_teacher_b10.jsonl",
+    "f1_mean": 0.7792,
+    "correct_share": {
+     "1.0": 0.5938,
+     "0.8": 0.7083,
+     "0.5": 0.8125
+    }
+   },
+   "2": {
+    "batch": 2,
+    "ans_s": 0.5045,
+    "ans_s_full": 0.5045,
+    "tail_rows": 0,
+    "n_batches": 48,
+    "n_full_batches": 48,
+    "e2e_s": 190.3,
+    "prefill_s": 73.7,
+    "tok_s_decode": 52.57,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_teacher_b2.jsonl",
+    "f1_mean": 0.7918,
+    "correct_share": {
+     "1.0": 0.625,
+     "0.8": 0.7292,
+     "0.5": 0.8229
+    }
+   },
+   "4": {
+    "batch": 4,
+    "ans_s": 0.6611,
+    "ans_s_full": 0.6611,
+    "tail_rows": 0,
+    "n_batches": 24,
+    "n_full_batches": 24,
+    "e2e_s": 145.2,
+    "prefill_s": 72.6,
+    "tok_s_decode": 86.48,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_teacher_b4.jsonl",
+    "f1_mean": 0.7792,
+    "correct_share": {
+     "1.0": 0.6042,
+     "0.8": 0.7188,
+     "0.5": 0.8125
+    }
+   },
+   "6": {
+    "batch": 6,
+    "ans_s": 0.7263,
+    "ans_s_full": 0.7263,
+    "tail_rows": 0,
+    "n_batches": 16,
+    "n_full_batches": 16,
+    "e2e_s": 132.2,
+    "prefill_s": 73.4,
+    "tok_s_decode": 110.96,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_teacher_b6.jsonl",
+    "f1_mean": 0.7882,
+    "correct_share": {
+     "1.0": 0.6146,
+     "0.8": 0.7188,
+     "0.5": 0.8229
+    }
+   },
+   "8": {
+    "batch": 8,
+    "ans_s": 0.7933,
+    "ans_s_full": 0.7933,
+    "tail_rows": 0,
+    "n_batches": 12,
+    "n_full_batches": 12,
+    "e2e_s": 121.0,
+    "prefill_s": 74.0,
+    "tok_s_decode": 137.6,
+    "answers": 96,
+    "node": "gh014",
+    "job": "3129219",
+    "file": "bsw_d40_teacher_b8.jsonl",
+    "f1_mean": 0.7868,
+    "correct_share": {
+     "1.0": 0.6042,
+     "0.8": 0.7188,
+     "0.5": 0.8229
+    }
+   }
+  },
+  "oom": {
+   "teacher": 12,
+   "ours": 20,
+   "floor": 96
+  },
+  "correct_share_pooled": {
+   "teacher": {
+    "1.0": 0.6084,
+    "0.8": 0.7188,
+    "0.5": 0.8187,
+    "rungs": 5,
+    "spread_1.0": 0.0312
+   },
+   "ours": {
+    "1.0": 0.5903,
+    "0.8": 0.6597,
+    "0.5": 0.7656,
+    "rungs": 6,
+    "spread_1.0": 0.0313
+   },
+   "floor": {
+    "1.0": 0.4747,
+    "0.8": 0.5238,
+    "0.5": 0.6161,
+    "rungs": 7,
+    "spread_1.0": 0.0313
+   }
+  }
+ },
+ "d80": {
+  "docs": 80,
+  "ctx_ktok": 11.8,
+  "floor": {
+   "16": {
+    "batch": 16,
+    "ans_s": 1.663,
+    "ans_s_full": 1.663,
+    "tail_rows": 0,
+    "n_batches": 6,
+    "n_full_batches": 6,
+    "e2e_s": 57.7,
+    "prefill_s": 40.4,
+    "tok_s_decode": 550.74,
+    "answers": 96,
+    "node": "gh091",
+    "job": "3134478",
+    "file": "bsw_d80_floor7_b16.jsonl",
+    "f1_mean": 0.5433,
+    "correct_share": {
+     "1.0": 0.4583,
+     "0.8": 0.5,
+     "0.5": 0.5625
+    }
+   },
+   "2": {
+    "batch": 2,
+    "ans_s": 0.9824,
+    "ans_s_full": 0.9824,
+    "tail_rows": 0,
+    "n_batches": 48,
+    "n_full_batches": 48,
+    "e2e_s": 97.7,
+    "prefill_s": 37.3,
+    "tok_s_decode": 146.29,
+    "answers": 96,
+    "node": "gh091",
+    "job": "3134478",
+    "file": "bsw_d80_floor7_b2.jsonl",
+    "f1_mean": 0.529,
+    "correct_share": {
+     "1.0": 0.4375,
+     "0.8": 0.4688,
+     "0.5": 0.5521
+    }
+   },
+   "24": {
+    "batch": 24,
+    "ans_s": 1.6975,
+    "ans_s_full": 1.6975,
+    "tail_rows": 0,
+    "n_batches": 4,
+    "n_full_batches": 4,
+    "e2e_s": 56.6,
+    "prefill_s": 41.4,
+    "tok_s_decode": 637.52,
+    "answers": 96,
+    "node": "gh091",
+    "job": "3134478",
+    "file": "bsw_d80_floor7_b24.jsonl",
+    "f1_mean": 0.5626,
+    "correct_share": {
+     "1.0": 0.4688,
+     "0.8": 0.5208,
+     "0.5": 0.5833
+    }
+   },
+   "32": {
+    "batch": 32,
+    "ans_s": 1.7167,
+    "ans_s_full": 1.7167,
+    "tail_rows": 0,
+    "n_batches": 3,
+    "n_full_batches": 3,
+    "e2e_s": 55.9,
+    "prefill_s": 42.9,
+    "tok_s_decode": 765.87,
+    "answers": 96,
+    "node": "gh091",
+    "job": "3134478",
+    "file": "bsw_d80_floor7_b32.jsonl",
+    "f1_mean": 0.5349,
+    "correct_share": {
+     "1.0": 0.4583,
+     "0.8": 0.4896,
+     "0.5": 0.5521
+    }
+   },
+   "4": {
+    "batch": 4,
+    "ans_s": 1.2711,
+    "ans_s_full": 1.2711,
+    "tail_rows": 0,
+    "n_batches": 24,
+    "n_full_batches": 24,
+    "e2e_s": 75.5,
+    "prefill_s": 37.1,
+    "tok_s_decode": 234.16,
+    "answers": 96,
+    "node": "gh091",
+    "job": "3134478",
+    "file": "bsw_d80_floor7_b4.jsonl",
+    "f1_mean": 0.5289,
+    "correct_share": {
+     "1.0": 0.4271,
+     "0.8": 0.4688,
+     "0.5": 0.5521
+    }
+   },
+   "8": {
+    "batch": 8,
+    "ans_s": 1.4629,
+    "ans_s_full": 1.4629,
+    "tail_rows": 0,
+    "n_batches": 12,
+    "n_full_batches": 12,
+    "e2e_s": 65.6,
+    "prefill_s": 38.5,
+    "tok_s_decode": 353.9,
+    "answers": 96,
+    "node": "gh091",
+    "job": "3134478",
+    "file": "bsw_d80_floor7_b8.jsonl",
+    "f1_mean": 0.5471,
+    "correct_share": {
+     "1.0": 0.4583,
+     "0.8": 0.5104,
+     "0.5": 0.5625
+    }
+   }
+  },
+  "ours": {
+   "10": {
+    "batch": 10,
+    "ans_s": 1.1094,
+    "ans_s_full": 1.1075,
+    "tail_rows": 6,
+    "n_batches": 10,
+    "n_full_batches": 9,
+    "e2e_s": 86.5,
+    "prefill_s": 45.4,
+    "tok_s_decode": 160.21,
+    "answers": 96,
+    "node": "gh091",
+    "job": "3134478",
+    "file": "bsw_d80_ours_b10.jsonl",
+    "f1_mean": 0.6967,
+    "correct_share": {
+     "1.0": 0.5625,
+     "0.8": 0.6146,
+     "0.5": 0.7396
+    }
+   },
+   "2": {
+    "batch": 2,
+    "ans_s": 0.5017,
+    "ans_s_full": 0.5017,
+    "tail_rows": 0,
+    "n_batches": 48,
+    "n_full_batches": 48,
+    "e2e_s": 191.3,
+    "prefill_s": 46.8,
+    "tok_s_decode": 45.46,
+    "answers": 96,
+    "node": "gh091",
+    "job": "3134478",
+    "file": "bsw_d80_ours_b2.jsonl",
+    "f1_mean": 0.6862,
+    "correct_share": {
+     "1.0": 0.5417,
+     "0.8": 0.6042,
+     "0.5": 0.7292
+    }
+   },
+   "4": {
+    "batch": 4,
+    "ans_s": 0.7671,
+    "ans_s_full": 0.7671,
+    "tail_rows": 0,
+    "n_batches": 24,
+    "n_full_batches": 24,
+    "e2e_s": 125.1,
+    "prefill_s": 45.3,
+    "tok_s_decode": 80.85,
+    "answers": 96,
+    "node": "gh091",
+    "job": "3134478",
+    "file": "bsw_d80_ours_b4.jsonl",
+    "f1_mean": 0.6852,
+    "correct_share": {
+     "1.0": 0.5625,
+     "0.8": 0.6042,
+     "0.5": 0.7188
+    }
+   },
+   "6": {
+    "batch": 6,
+    "ans_s": 0.9334,
+    "ans_s_full": 0.9334,
+    "tail_rows": 0,
+    "n_batches": 16,
+    "n_full_batches": 16,
+    "e2e_s": 102.9,
+    "prefill_s": 45.2,
+    "tok_s_decode": 113.84,
+    "answers": 96,
+    "node": "gh091",
+    "job": "3134478",
+    "file": "bsw_d80_ours_b6.jsonl",
+    "f1_mean": 0.6988,
+    "correct_share": {
+     "1.0": 0.5625,
+     "0.8": 0.6146,
+     "0.5": 0.7396
+    }
+   },
+   "8": {
+    "batch": 8,
+    "ans_s": 1.0169,
+    "ans_s_full": 1.0169,
+    "tail_rows": 0,
+    "n_batches": 12,
+    "n_full_batches": 12,
+    "e2e_s": 94.4,
+    "prefill_s": 45.3,
+    "tok_s_decode": 135.05,
+    "answers": 96,
+    "node": "gh091",
+    "job": "3134478",
+    "file": "bsw_d80_ours_b8.jsonl",
+    "f1_mean": 0.6675,
+    "correct_share": {
+     "1.0": 0.5521,
+     "0.8": 0.5938,
+     "0.5": 0.6979
+    }
+   }
+  },
+  "teacher": {
+   "2": {
+    "batch": 2,
+    "ans_s": 0.3375,
+    "ans_s_full": 0.3375,
+    "tail_rows": 0,
+    "n_batches": 48,
+    "n_full_batches": 48,
+    "e2e_s": 284.5,
+    "prefill_s": 159.4,
+    "tok_s_decode": 49.15,
+    "answers": 96,
+    "node": "gh091",
+    "job": "3134478",
+    "file": "bsw_d80_teacher_b2.jsonl",
+    "f1_mean": 0.7418,
+    "correct_share": {
+     "1.0": 0.5938,
+     "0.8": 0.6771,
+     "0.5": 0.7812
+    }
+   },
+   "3": {
+    "batch": 3,
+    "ans_s": 0.3744,
+    "ans_s_full": 0.3744,
+    "tail_rows": 0,
+    "n_batches": 32,
+    "n_full_batches": 32,
+    "e2e_s": 256.4,
+    "prefill_s": 159.7,
+    "tok_s_decode": 63.92,
+    "answers": 96,
+    "node": "gh091",
+    "job": "3134478",
+    "file": "bsw_d80_teacher_b3.jsonl",
+    "f1_mean": 0.7279,
+    "correct_share": {
+     "1.0": 0.5729,
+     "0.8": 0.6562,
+     "0.5": 0.7708
+    }
+   },
+   "4": {
+    "batch": 4,
+    "ans_s": 0.3964,
+    "ans_s_full": 0.3964,
+    "tail_rows": 0,
+    "n_batches": 24,
+    "n_full_batches": 24,
+    "e2e_s": 242.2,
+    "prefill_s": 161.0,
+    "tok_s_decode": 76.53,
+    "answers": 96,
+    "node": "gh091",
+    "job": "3134478",
+    "file": "bsw_d80_teacher_b4.jsonl",
+    "f1_mean": 0.7397,
+    "correct_share": {
+     "1.0": 0.5833,
+     "0.8": 0.6771,
+     "0.5": 0.7812
+    }
+   },
+   "6": {
+    "batch": 6,
+    "ans_s": 0.4229,
+    "ans_s_full": 0.4229,
+    "tail_rows": 0,
+    "n_batches": 16,
+    "n_full_batches": 16,
+    "e2e_s": 227.0,
+    "prefill_s": 163.4,
+    "tok_s_decode": 98.25,
+    "answers": 96,
+    "node": "gh091",
+    "job": "3134478",
+    "file": "bsw_d80_teacher_b6.jsonl",
+    "f1_mean": 0.7494,
+    "correct_share": {
+     "1.0": 0.5833,
+     "0.8": 0.6979,
+     "0.5": 0.7917
+    }
+   }
+  },
+  "oom": {
+   "teacher": 8,
+   "ours": 12,
+   "floor": 40
+  },
+  "correct_share_pooled": {
+   "teacher": {
+    "1.0": 0.5833,
+    "0.8": 0.6771,
+    "0.5": 0.7812,
+    "rungs": 4,
+    "spread_1.0": 0.0209
+   },
+   "ours": {
+    "1.0": 0.5563,
+    "0.8": 0.6063,
+    "0.5": 0.725,
+    "rungs": 5,
+    "spread_1.0": 0.0208
+   },
+   "floor": {
+    "1.0": 0.4514,
+    "0.8": 0.4931,
+    "0.5": 0.5608,
+    "rungs": 6,
+    "spread_1.0": 0.0417
+   }
+  }
+ },
+ "_source": "scripts/score_batch_sweep.py \u2014 throughput_eval.measure() over every bsw_d*_{teacher,ours,floor7}_b<B>.jsonl of job(s) 3129219, 3134478, 3134479; hotpotQA d40 s42, the first 96 questions; production FKV path; one file per batch; complete-batch rate beside the all-batch rate; OOM rung per arm from the job's stdout."
+}

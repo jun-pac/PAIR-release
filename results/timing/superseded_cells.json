@@ -1,0 +1,79 @@
+{
+  "_what": "Values that were published and have been REPLACED or DROPPED. Kept because a measurement is GPU-hours materialised: superseded numbers are moved, never deleted. Written by scripts/merge_appendonly_cells.py.",
+  "hotpot": {
+    "quant_int3": {
+      "reason": "int3 DROPPED FROM THE STUDY (register 2026-08-31): not a deployment setting, 3.1 pp of KV below int4",
+      "replaced_by": null,
+      "value": {
+        "em": 0.675,
+        "f1": 0.7368,
+        "n": 600
+      }
+    },
+    "quant_int4": {
+      "note": "produced before the AppendOnlyHQQCache fix",
+      "reason": "AppendOnlyHQQCache re-measurement, job 3058708",
+      "replaced_by": "hotq_int4",
+      "value": 0.7531
+    },
+    "quant_int8": {
+      "note": "produced before the AppendOnlyHQQCache fix",
+      "reason": "AppendOnlyHQQCache re-measurement, job 3058708",
+      "replaced_by": "hotq_int8",
+      "value": 0.7543
+    }
+  },
+  "locomo": {
+    "quant_int4": {
+      "note": "produced before the AppendOnlyHQQCache fix",
+      "reason": "AppendOnlyHQQCache, batched B=6, job 3071471",
+      "replaced_by": "lcao_int4",
+      "value": 0.5171
+    }
+  },
+  "loogle": {
+    "quant_int3": {
+      "reason": "int3 DROPPED FROM THE STUDY (register 2026-08-31): not a deployment setting, 3.1 pp of KV below int4",
+      "replaced_by": null,
+      "value": 0.4318
+    },
+    "quant_int4": {
+      "note": "produced before the AppendOnlyHQQCache fix",
+      "reason": "AppendOnlyHQQCache, batched B=4, job 3059852",
+      "replaced_by": "lgc_quant_int4",
+      "value": 0.4799
+    },
+    "quant_int8": {
+      "note": "produced before the AppendOnlyHQQCache fix",
+      "reason": "AppendOnlyHQQCache, batched B=4, job 3059852",
+      "replaced_by": "lgc_quant_int8",
+      "value": 0.4797
+    },
+    "spec219": {
+      "note": "produced before the AppendOnlyHQQCache fix",
+      "reason": "unified kept grid, SpecPrefill keep 0.21875 -- the two levels that were previously indistinguishable because the keep never reached the harness (incident #8)",
+      "replaced_by": "gf_lg_acc_spec21875",
+      "value": 0.3747
+    }
+  },
+  "musique": {
+    "quant_int2": {
+      "note": "produced before the AppendOnlyHQQCache fix",
+      "reason": "AppendOnlyHQQCache, batched B=12, FULL-2417, job 3071791",
+      "replaced_by": "muao_int2",
+      "value": 0.2209
+    },
+    "quant_int4": {
+      "note": "produced before the AppendOnlyHQQCache fix",
+      "reason": "AppendOnlyHQQCache, batched B=10, FULL-2417, job 3071472",
+      "replaced_by": "muao_int4",
+      "value": 0.4537
+    },
+    "quant_int8": {
+      "note": "produced before the AppendOnlyHQQCache fix",
+      "reason": "AppendOnlyHQQCache, batched B=8, FULL-2417, job 3071472",
+      "replaced_by": "muao_int8",
+      "value": 0.4741
+    }
+  }
+}

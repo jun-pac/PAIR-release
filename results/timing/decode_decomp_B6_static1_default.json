@@ -1,0 +1,62 @@
+{
+  "reader7B": {
+    "free": {
+      "wall_ms": 40.395,
+      "cpu_ms": 40.388
+    },
+    "sync": {
+      "wall_ms": 40.529,
+      "cpu_ms": 40.146
+    }
+  },
+  "lm32B": {
+    "free": {
+      "wall_ms": 91.503,
+      "cpu_ms": 91.497
+    },
+    "sync": {
+      "wall_ms": 98.313,
+      "cpu_ms": 97.996
+    }
+  },
+  "fusion_syncfree": {
+    "free": {
+      "wall_ms": 166.679,
+      "cpu_ms": 166.673
+    },
+    "sync": {
+      "wall_ms": 169.391,
+      "cpu_ms": 169.099
+    }
+  },
+  "fusion_asimpl": {
+    "free": {
+      "wall_ms": 171.101,
+      "cpu_ms": 171.095
+    },
+    "sync": {
+      "wall_ms": 171.964,
+      "cpu_ms": 171.678
+    }
+  },
+  "_derived": {
+    "sum_of_branches_ms": 131.898,
+    "glue_ms": 34.781,
+    "sync_cost_ms": 4.422,
+    "asimpl_over_sum_pct": 29.7,
+    "syncfree_tok_s_at_B": 36.0,
+    "asimpl_tok_s_at_B": 35.1
+  },
+  "_cfg": {
+    "B": 6,
+    "CTX": 27500,
+    "LMCTX": 192,
+    "NSTEP": 60,
+    "LAM": 0.85,
+    "static": "1",
+    "lm": "Qwen/Qwen2.5-32B-Instruct",
+    "slm": "Qwen/Qwen2.5-7B-Instruct",
+    "node": "gh005",
+    "job": "3030439"
+  }
+}

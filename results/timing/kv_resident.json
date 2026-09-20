@@ -1,0 +1,479 @@
+{
+ "hotpot": {
+  "expected400": {
+   "n": 24,
+   "kv_gib": 0.8313
+  },
+  "expected500": {
+   "n": 24,
+   "kv_gib": 0.6993
+  },
+  "expected600": {
+   "n": 24,
+   "kv_gib": 0.5671
+  },
+  "expected700": {
+   "n": 24,
+   "kv_gib": 0.4351
+  },
+  "expected781": {
+   "n": 24,
+   "kv_gib": 0.3278
+  },
+  "expected850": {
+   "n": 24,
+   "kv_gib": 0.2372
+  },
+  "floor7": {
+   "n": 24,
+   "kv_gib": 0.2974
+  },
+  "ours": {
+   "n": 24,
+   "kv_gib": 0.3364,
+   "kv_gib_reader": 0.2974,
+   "kv_gib_lm": 0.039
+  },
+  "quant_int4": {
+   "n": 24,
+   "kv_gib": 1.331,
+   "kv_gib_flushed": 0.3881
+  },
+  "quant_int8": {
+   "n": 24,
+   "kv_gib": 1.3409,
+   "kv_gib_flushed": 0.7329
+  },
+  "snap400": {
+   "n": 24,
+   "kv_gib": 0.8276
+  },
+  "snap500": {
+   "n": 24,
+   "kv_gib": 0.6937
+  },
+  "snap600": {
+   "n": 24,
+   "kv_gib": 0.5597
+  },
+  "snap700": {
+   "n": 24,
+   "kv_gib": 0.4256
+  },
+  "snap781": {
+   "n": 24,
+   "kv_gib": 0.3167
+  },
+  "snap850": {
+   "n": 24,
+   "kv_gib": 0.2247
+  },
+  "spec10000": {
+   "n": 24,
+   "kv_gib": 0.171
+  },
+  "spec15000": {
+   "n": 24,
+   "kv_gib": 0.2377
+  },
+  "spec21875": {
+   "n": 24,
+   "kv_gib": 0.3283
+  },
+  "spec30000": {
+   "n": 24,
+   "kv_gib": 0.4362
+  },
+  "spec40000": {
+   "n": 24,
+   "kv_gib": 0.5683
+  },
+  "teacher": {
+   "n": 24,
+   "kv_gib": 1.3591
+  },
+  "expected900": {
+   "n": 24,
+   "kv_gib": 0.1713
+  },
+  "expected950": {
+   "n": 24,
+   "kv_gib": 0.1052
+  },
+  "quant_int2": {
+   "n": 24,
+   "kv_gib": 0.2243,
+   "kv_gib_flushed": 0.228
+  },
+  "snap900": {
+   "n": 24,
+   "kv_gib": 0.1577
+  },
+  "snap950": {
+   "n": 24,
+   "kv_gib": 0.0905
+  },
+  "spec05000": {
+   "n": 24,
+   "kv_gib": 0.1057
+  }
+ },
+ "locomo": {
+  "expected400": {
+   "n": 60,
+   "kv_gib": 2.581
+  },
+  "expected600": {
+   "n": 60,
+   "kv_gib": 1.8437
+  },
+  "expected781": {
+   "n": 60,
+   "kv_gib": 1.1761
+  },
+  "expected900": {
+   "n": 60,
+   "kv_gib": 0.7228
+  },
+  "expected950": {
+   "n": 60,
+   "kv_gib": 0.5387
+  },
+  "floor7": {
+   "n": 60,
+   "kv_gib": 0.8872
+  },
+  "ours": {
+   "n": 60,
+   "kv_gib": 0.9422,
+   "kv_gib_reader": 0.8872,
+   "kv_gib_lm": 0.055
+  },
+  "quant_int4": {
+   "n": 60,
+   "kv_gib": 1.2435,
+   "kv_gib_flushed": 1.1585
+  },
+  "quant_int8": {
+   "n": 60,
+   "kv_gib": 2.2214,
+   "kv_gib_flushed": 2.1717
+  },
+  "snap400": {
+   "n": 60,
+   "kv_gib": 2.5755
+  },
+  "snap600": {
+   "n": 60,
+   "kv_gib": 1.8352
+  },
+  "snap781": {
+   "n": 60,
+   "kv_gib": 1.1641
+  },
+  "snap900": {
+   "n": 60,
+   "kv_gib": 0.7245
+  },
+  "snap950": {
+   "n": 60,
+   "kv_gib": 0.5398
+  },
+  "spec05000": {
+   "n": 60,
+   "kv_gib": 0.551
+  },
+  "spec21875": {
+   "n": 60,
+   "kv_gib": 1.1756
+  },
+  "spec40000": {
+   "n": 60,
+   "kv_gib": 1.8441
+  },
+  "teacher": {
+   "n": 60,
+   "kv_gib": 4.0549
+  },
+  "snap850": {
+   "n": 60,
+   "kv_gib": 0.9099
+  },
+  "expected700": {
+   "n": 60,
+   "kv_gib": 1.4753
+  },
+  "expected850": {
+   "n": 60,
+   "kv_gib": 0.9226
+  },
+  "quant_int2": {
+   "n": 60,
+   "kv_gib": 0.6461,
+   "kv_gib_flushed": 0.6493
+  },
+  "snap700": {
+   "n": 60,
+   "kv_gib": 1.4652
+  },
+  "spec10000": {
+   "n": 60,
+   "kv_gib": 0.7346
+  },
+  "spec15000": {
+   "n": 60,
+   "kv_gib": 0.922
+  },
+  "spec30000": {
+   "n": 60,
+   "kv_gib": 1.4766
+  }
+ },
+ "loogle": {
+  "expected500": {
+   "n": 17,
+   "kv_gib": 2.5502
+  },
+  "expected600": {
+   "n": 17,
+   "kv_gib": 2.0599
+  },
+  "expected700": {
+   "n": 17,
+   "kv_gib": 1.5705
+  },
+  "expected781": {
+   "n": 17,
+   "kv_gib": 1.1706
+  },
+  "expected850": {
+   "n": 17,
+   "kv_gib": 0.8338
+  },
+  "floor7": {
+   "n": 17,
+   "kv_gib": 1.0938
+  },
+  "ours": {
+   "n": 17,
+   "kv_gib": 1.1328,
+   "kv_gib_reader": 1.0938,
+   "kv_gib_lm": 0.039
+  },
+  "oursq_int4": {
+   "n": 17,
+   "kv_gib": 0.4929,
+   "kv_gib_reader": 0.4539,
+   "kv_gib_lm": 0.039
+  },
+  "oursq_int8": {
+   "n": 17,
+   "kv_gib": 0.7156,
+   "kv_gib_reader": 0.6766,
+   "kv_gib_lm": 0.039
+  },
+  "quant_int2": {
+   "n": 17,
+   "kv_gib": 1.5652,
+   "kv_gib_flushed": 0.798
+  },
+  "quant_int3": {
+   "n": 17,
+   "kv_gib": 1.946,
+   "kv_gib_flushed": 1.2665
+  },
+  "quant_int4": {
+   "n": 17,
+   "kv_gib": 2.0744,
+   "kv_gib_flushed": 1.4236
+  },
+  "quant_int8": {
+   "n": 17,
+   "kv_gib": 3.0896,
+   "kv_gib_flushed": 2.6726
+  },
+  "snap500": {
+   "n": 17,
+   "kv_gib": 2.5449
+  },
+  "snap600": {
+   "n": 17,
+   "kv_gib": 2.0531
+  },
+  "snap700": {
+   "n": 17,
+   "kv_gib": 1.561
+  },
+  "snap781": {
+   "n": 17,
+   "kv_gib": 1.1612
+  },
+  "snap850": {
+   "n": 17,
+   "kv_gib": 0.8229
+  },
+  "spec10000": {
+   "n": 17,
+   "kv_gib": 0.5909
+  },
+  "spec15000": {
+   "n": 17,
+   "kv_gib": 0.8352
+  },
+  "spec21875": {
+   "n": 17,
+   "kv_gib": 1.1709
+  },
+  "spec30000": {
+   "n": 17,
+   "kv_gib": 1.5691
+  },
+  "teacher": {
+   "n": 17,
+   "kv_gib": 4.9955
+  },
+  "expected900": {
+   "n": 17,
+   "kv_gib": 0.5885
+  },
+  "expected950": {
+   "n": 17,
+   "kv_gib": 0.3429
+  },
+  "snap900": {
+   "n": 17,
+   "kv_gib": 0.577
+  },
+  "snap950": {
+   "n": 17,
+   "kv_gib": 0.3311
+  },
+  "spec05000": {
+   "n": 17,
+   "kv_gib": 0.3466
+  },
+  "spec40000": {
+   "n": 17,
+   "kv_gib": 2.0606
+  }
+ },
+ "musique": {
+  "expected400": {
+   "n": 24,
+   "kv_gib": 0.7255
+  },
+  "expected500": {
+   "n": 24,
+   "kv_gib": 0.6113
+  },
+  "expected600": {
+   "n": 24,
+   "kv_gib": 0.4967
+  },
+  "expected700": {
+   "n": 24,
+   "kv_gib": 0.3825
+  },
+  "expected781": {
+   "n": 24,
+   "kv_gib": 0.2895
+  },
+  "expected850": {
+   "n": 24,
+   "kv_gib": 0.2108
+  },
+  "floor7": {
+   "n": 24,
+   "kv_gib": 0.2589
+  },
+  "ours": {
+   "n": 24,
+   "kv_gib": 0.2979,
+   "kv_gib_reader": 0.2589,
+   "kv_gib_lm": 0.039
+  },
+  "quant_int4": {
+   "n": 24,
+   "kv_gib": 1.155,
+   "kv_gib_flushed": 0.3377
+  },
+  "quant_int8": {
+   "n": 24,
+   "kv_gib": 1.1649,
+   "kv_gib_flushed": 0.6378
+  },
+  "snap400": {
+   "n": 24,
+   "kv_gib": 0.7205
+  },
+  "snap500": {
+   "n": 24,
+   "kv_gib": 0.6043
+  },
+  "snap600": {
+   "n": 24,
+   "kv_gib": 0.488
+  },
+  "snap700": {
+   "n": 24,
+   "kv_gib": 0.3719
+  },
+  "snap781": {
+   "n": 24,
+   "kv_gib": 0.2777
+  },
+  "snap850": {
+   "n": 24,
+   "kv_gib": 0.1978
+  },
+  "spec10000": {
+   "n": 24,
+   "kv_gib": 0.1529
+  },
+  "spec15000": {
+   "n": 24,
+   "kv_gib": 0.2105
+  },
+  "spec21875": {
+   "n": 24,
+   "kv_gib": 0.2893
+  },
+  "spec30000": {
+   "n": 24,
+   "kv_gib": 0.3828
+  },
+  "spec40000": {
+   "n": 24,
+   "kv_gib": 0.4978
+  },
+  "teacher": {
+   "n": 24,
+   "kv_gib": 1.1832
+  },
+  "expected900": {
+   "n": 24,
+   "kv_gib": 0.1537
+  },
+  "expected950": {
+   "n": 24,
+   "kv_gib": 0.0964
+  },
+  "snap900": {
+   "n": 24,
+   "kv_gib": 0.1397
+  },
+  "snap950": {
+   "n": 24,
+   "kv_gib": 0.0816
+  },
+  "spec05000": {
+   "n": 24,
+   "kv_gib": 0.0955
+  },
+  "quant_int2": {
+   "n": 24,
+   "kv_gib": 0.1978,
+   "kv_gib_flushed": 0.2009
+  }
+ }
+}

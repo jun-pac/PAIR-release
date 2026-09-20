@@ -1,0 +1,138 @@
+[
+  {
+    "nbits": 8,
+    "T": 6144,
+    "walk_bytes": {
+      "quantized": 805306368,
+      "meta": 50331648,
+      "residual_fp": 0,
+      "other": 0
+    },
+    "walk_total": 855638016,
+    "alloc_delta": 855638016,
+    "bf16_bytes": 1610612736,
+    "pct_of_bf16_walk": 53.12,
+    "pct_of_bf16_alloc": 53.12,
+    "naive_pct": 50.0,
+    "eff_bits_per_value": 8.5
+  },
+  {
+    "nbits": 4,
+    "T": 6144,
+    "walk_bytes": {
+      "quantized": 402653184,
+      "meta": 50331648,
+      "residual_fp": 0,
+      "other": 0
+    },
+    "walk_total": 452984832,
+    "alloc_delta": 458227712,
+    "bf16_bytes": 1610612736,
+    "pct_of_bf16_walk": 28.12,
+    "pct_of_bf16_alloc": 28.45,
+    "naive_pct": 25.0,
+    "eff_bits_per_value": 4.5
+  },
+  {
+    "nbits": 3,
+    "T": 6144,
+    "walk_bytes": {
+      "quantized": 352321536,
+      "meta": 50331648,
+      "residual_fp": 0,
+      "other": 0
+    },
+    "walk_total": 402653184,
+    "alloc_delta": 410124288,
+    "bf16_bytes": 1610612736,
+    "pct_of_bf16_walk": 25.0,
+    "pct_of_bf16_alloc": 25.46,
+    "naive_pct": 18.75,
+    "eff_bits_per_value": 4.0
+  },
+  {
+    "nbits": 2,
+    "T": 6144,
+    "walk_bytes": {
+      "quantized": 201326592,
+      "meta": 50331648,
+      "residual_fp": 0,
+      "other": 0
+    },
+    "walk_total": 251658240,
+    "alloc_delta": 307232768,
+    "bf16_bytes": 1610612736,
+    "pct_of_bf16_walk": 15.62,
+    "pct_of_bf16_alloc": 19.08,
+    "naive_pct": 12.5,
+    "eff_bits_per_value": 2.5
+  },
+  {
+    "nbits": 8,
+    "T": 24576,
+    "walk_bytes": {
+      "quantized": 2952790016,
+      "meta": 184549376,
+      "residual_fp": 536870912,
+      "other": 0
+    },
+    "walk_total": 3674210304,
+    "alloc_delta": 3674210304,
+    "bf16_bytes": 6442450944,
+    "pct_of_bf16_walk": 57.03,
+    "pct_of_bf16_alloc": 57.03,
+    "naive_pct": 50.0,
+    "eff_bits_per_value": 9.125
+  },
+  {
+    "nbits": 4,
+    "T": 24576,
+    "walk_bytes": {
+      "quantized": 1476395008,
+      "meta": 184549376,
+      "residual_fp": 536870912,
+      "other": 0
+    },
+    "walk_total": 2197815296,
+    "alloc_delta": 2332033024,
+    "bf16_bytes": 6442450944,
+    "pct_of_bf16_walk": 34.11,
+    "pct_of_bf16_alloc": 36.2,
+    "naive_pct": 25.0,
+    "eff_bits_per_value": 5.458
+  },
+  {
+    "nbits": 3,
+    "T": 24576,
+    "walk_bytes": {
+      "quantized": 1291845632,
+      "meta": 184549376,
+      "residual_fp": 536870912,
+      "other": 0
+    },
+    "walk_total": 2013265920,
+    "alloc_delta": 2050228224,
+    "bf16_bytes": 6442450944,
+    "pct_of_bf16_walk": 31.25,
+    "pct_of_bf16_alloc": 31.82,
+    "naive_pct": 18.75,
+    "eff_bits_per_value": 5.0
+  },
+  {
+    "nbits": 2,
+    "T": 24576,
+    "walk_bytes": {
+      "quantized": 738197504,
+      "meta": 184549376,
+      "residual_fp": 536870912,
+      "other": 0
+    },
+    "walk_total": 1459617792,
+    "alloc_delta": 1524629504,
+    "bf16_bytes": 6442450944,
+    "pct_of_bf16_walk": 22.66,
+    "pct_of_bf16_alloc": 23.67,
+    "naive_pct": 12.5,
+    "eff_bits_per_value": 3.625
+  }
+]

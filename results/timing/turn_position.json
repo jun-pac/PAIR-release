@@ -1,0 +1,882 @@
+{
+ "loogle": {
+  "name": "LooGLE",
+  "shared_n": 355,
+  "conversations": 70,
+  "balanced_conversations": 32,
+  "max_turn": 14,
+  "bin_labels": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "views": {
+   "balanced": {
+    "n": 236,
+    "conversations": 32,
+    "bins": [
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      4,
+      4
+     ],
+     [
+      5,
+      5
+     ],
+     [
+      6,
+      6
+     ]
+    ],
+    "bin_labels": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "bin_n": [
+     32,
+     32,
+     32,
+     32,
+     32,
+     32
+    ],
+    "arms": {
+     "Full-context 32B": [
+      0.3883,
+      0.5164,
+      0.4885,
+      0.622,
+      0.3962,
+      0.6018
+     ],
+     "PAIR 32B + 7B (ours)": [
+      0.3708,
+      0.5012,
+      0.3826,
+      0.5921,
+      0.4991,
+      0.464
+     ],
+     "Full-context 7B": [
+      0.2895,
+      0.4341,
+      0.3373,
+      0.5064,
+      0.4407,
+      0.4633
+     ],
+     "snapKV (32B)": [
+      0.3882,
+      0.3982,
+      0.3355,
+      0.4336,
+      0.2701,
+      0.4301
+     ],
+     "SpecPrefill (32B)": [
+      0.3176,
+      0.4746,
+      0.2828,
+      0.4901,
+      0.3467,
+      0.4006
+     ],
+     "ExpectedAttention (32B)": [
+      0.2125,
+      0.3797,
+      0.2739,
+      0.3859,
+      0.3371,
+      0.3365
+     ],
+     "KV quantization (32B)": [
+      0.3531,
+      0.4874,
+      0.442,
+      0.6158,
+      0.4688,
+      0.5975
+     ]
+    },
+    "closeness_pct": [
+     82.3,
+     81.5,
+     30.0,
+     74.1,
+     -131.2,
+     0.5
+    ]
+   },
+   "all": {
+    "n": 355,
+    "conversations": 70,
+    "bins": [
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      4,
+      4
+     ],
+     [
+      5,
+      5
+     ],
+     [
+      6,
+      6
+     ]
+    ],
+    "bin_labels": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "bin_n": [
+     70,
+     65,
+     58,
+     46,
+     40,
+     32
+    ],
+    "arms": {
+     "Full-context 32B": [
+      0.4566,
+      0.5146,
+      0.4733,
+      0.5902,
+      0.4028,
+      0.6018
+     ],
+     "PAIR 32B + 7B (ours)": [
+      0.4073,
+      0.4411,
+      0.4037,
+      0.5717,
+      0.4914,
+      0.464
+     ],
+     "Full-context 7B": [
+      0.3718,
+      0.3397,
+      0.359,
+      0.4482,
+      0.4775,
+      0.4633
+     ],
+     "snapKV (32B)": [
+      0.4418,
+      0.3547,
+      0.3061,
+      0.3423,
+      0.3108,
+      0.4301
+     ],
+     "SpecPrefill (32B)": [
+      0.4102,
+      0.421,
+      0.315,
+      0.4685,
+      0.3673,
+      0.4006
+     ],
+     "ExpectedAttention (32B)": [
+      0.2794,
+      0.322,
+      0.2533,
+      0.3826,
+      0.3565,
+      0.3365
+     ],
+     "KV quantization (32B)": [
+      0.4266,
+      0.4742,
+      0.4631,
+      0.6113,
+      0.4871,
+      0.5975
+     ]
+    },
+    "closeness_pct": [
+     41.9,
+     58.0,
+     39.1,
+     87.0,
+     -18.6,
+     0.5
+    ]
+   }
+  },
+  "arms": {
+   "Full-context 32B": {
+    "query_dependent": false,
+    "tag": "lg_teacher"
+   },
+   "PAIR 32B + 7B (ours)": {
+    "query_dependent": false,
+    "tag": "lg_SsoloLfus_l07"
+   },
+   "Full-context 7B": {
+    "query_dependent": false,
+    "tag": "lg_floor7"
+   },
+   "snapKV (32B)": {
+    "query_dependent": true,
+    "tag": "lg_snapkv_r78125"
+   },
+   "SpecPrefill (32B)": {
+    "query_dependent": true,
+    "tag": "gf_lg_acc_spec21875"
+   },
+   "ExpectedAttention (32B)": {
+    "query_dependent": false,
+    "tag": "lga_expected781_ACC"
+   },
+   "KV quantization (32B)": {
+    "query_dependent": false,
+    "tag": "lgc_quant_int4"
+   }
+  },
+  "first_vs_later": {
+   "conversations": 65,
+   "n_first": 65,
+   "n_later": 285,
+   "arms": {
+    "Full-context 32B": {
+     "first": 0.4709,
+     "later": 0.4952,
+     "paired_mean": 0.0417,
+     "up": 34,
+     "down": 29
+    },
+    "PAIR 32B + 7B (ours)": {
+     "first": 0.4201,
+     "later": 0.4528,
+     "paired_mean": 0.0433,
+     "up": 36,
+     "down": 28
+    },
+    "Full-context 7B": {
+     "first": 0.3716,
+     "later": 0.3918,
+     "paired_mean": 0.0069,
+     "up": 40,
+     "down": 24
+    },
+    "snapKV (32B)": {
+     "first": 0.4545,
+     "later": 0.3407,
+     "paired_mean": -0.1155,
+     "up": 25,
+     "down": 35
+    },
+    "SpecPrefill (32B)": {
+     "first": 0.4219,
+     "later": 0.3677,
+     "paired_mean": -0.0513,
+     "up": 29,
+     "down": 33
+    },
+    "ExpectedAttention (32B)": {
+     "first": 0.2947,
+     "later": 0.3212,
+     "paired_mean": 0.0129,
+     "up": 34,
+     "down": 25
+    },
+    "KV quantization (32B)": {
+     "first": 0.4376,
+     "later": 0.4966,
+     "paired_mean": 0.0672,
+     "up": 35,
+     "down": 28
+    }
+   }
+  },
+  "cat_bin_labels": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ]
+ },
+ "locomo": {
+  "name": "LoCoMo",
+  "shared_n": 300,
+  "conversations": 10,
+  "balanced_conversations": 10,
+  "max_turn": 30,
+  "bin_labels": [
+   "1\u20135",
+   "6\u201310",
+   "11\u201315",
+   "16\u201320",
+   "21\u201325",
+   "26\u201330"
+  ],
+  "views": {
+   "balanced": {
+    "n": 300,
+    "conversations": 10,
+    "bins": [
+     [
+      1,
+      5
+     ],
+     [
+      6,
+      10
+     ],
+     [
+      11,
+      15
+     ],
+     [
+      16,
+      20
+     ],
+     [
+      21,
+      25
+     ],
+     [
+      26,
+      30
+     ]
+    ],
+    "bin_labels": [
+     "1\u20135",
+     "6\u201310",
+     "11\u201315",
+     "16\u201320",
+     "21\u201325",
+     "26\u201330"
+    ],
+    "bin_n": [
+     50,
+     50,
+     50,
+     50,
+     50,
+     50
+    ],
+    "arms": {
+     "Full-context 32B": [
+      0.4688,
+      0.5823,
+      0.6422,
+      0.4997,
+      0.5713,
+      0.5856
+     ],
+     "PAIR 32B + 7B (ours)": [
+      0.3713,
+      0.4867,
+      0.6341,
+      0.3732,
+      0.5197,
+      0.6098
+     ],
+     "Full-context 7B": [
+      0.3941,
+      0.4923,
+      0.4739,
+      0.3676,
+      0.3878,
+      0.4302
+     ],
+     "snapKV (32B)": [
+      0.4538,
+      0.447,
+      0.3623,
+      0.297,
+      0.3607,
+      0.4042
+     ],
+     "SpecPrefill (32B)": [
+      0.4082,
+      0.4023,
+      0.3219,
+      0.2821,
+      0.3633,
+      0.3863
+     ],
+     "ExpectedAttention (32B)": [
+      0.3103,
+      0.2833,
+      0.3682,
+      0.3652,
+      0.2807,
+      0.3537
+     ],
+     "KV quantization (32B)": [
+      0.5193,
+      0.5222,
+      0.668,
+      0.4648,
+      0.5456,
+      0.6306
+     ]
+    },
+    "closeness_pct": [
+     -30.5,
+     -6.2,
+     95.2,
+     4.2,
+     71.9,
+     115.6
+    ]
+   },
+   "all": {
+    "n": 300,
+    "conversations": 10,
+    "bins": [
+     [
+      1,
+      5
+     ],
+     [
+      6,
+      10
+     ],
+     [
+      11,
+      15
+     ],
+     [
+      16,
+      20
+     ],
+     [
+      21,
+      25
+     ],
+     [
+      26,
+      30
+     ]
+    ],
+    "bin_labels": [
+     "1\u20135",
+     "6\u201310",
+     "11\u201315",
+     "16\u201320",
+     "21\u201325",
+     "26\u201330"
+    ],
+    "bin_n": [
+     50,
+     50,
+     50,
+     50,
+     50,
+     50
+    ],
+    "arms": {
+     "Full-context 32B": [
+      0.4688,
+      0.5823,
+      0.6422,
+      0.4997,
+      0.5713,
+      0.5856
+     ],
+     "PAIR 32B + 7B (ours)": [
+      0.3713,
+      0.4867,
+      0.6341,
+      0.3732,
+      0.5197,
+      0.6098
+     ],
+     "Full-context 7B": [
+      0.3941,
+      0.4923,
+      0.4739,
+      0.3676,
+      0.3878,
+      0.4302
+     ],
+     "snapKV (32B)": [
+      0.4538,
+      0.447,
+      0.3623,
+      0.297,
+      0.3607,
+      0.4042
+     ],
+     "SpecPrefill (32B)": [
+      0.4082,
+      0.4023,
+      0.3219,
+      0.2821,
+      0.3633,
+      0.3863
+     ],
+     "ExpectedAttention (32B)": [
+      0.3103,
+      0.2833,
+      0.3682,
+      0.3652,
+      0.2807,
+      0.3537
+     ],
+     "KV quantization (32B)": [
+      0.5193,
+      0.5222,
+      0.668,
+      0.4648,
+      0.5456,
+      0.6306
+     ]
+    },
+    "closeness_pct": [
+     -30.5,
+     -6.2,
+     95.2,
+     4.2,
+     71.9,
+     115.6
+    ]
+   },
+   "category 1": {
+    "n": 122,
+    "conversations": 10,
+    "bins": [
+     [
+      1,
+      5
+     ],
+     [
+      6,
+      10
+     ],
+     [
+      11,
+      20
+     ],
+     [
+      21,
+      30
+     ]
+    ],
+    "bin_labels": [
+     "1\u20135",
+     "6\u201310",
+     "11\u201320",
+     "21\u201330"
+    ],
+    "bin_n": [
+     21,
+     20,
+     38,
+     43
+    ],
+    "arms": {
+     "Full-context 32B": [
+      0.4419,
+      0.4996,
+      0.4372,
+      0.5622
+     ],
+     "PAIR 32B + 7B (ours)": [
+      0.3241,
+      0.3803,
+      0.4183,
+      0.4967
+     ],
+     "Full-context 7B": [
+      0.4432,
+      0.4904,
+      0.2955,
+      0.4298
+     ],
+     "snapKV (32B)": [
+      0.4676,
+      0.357,
+      0.298,
+      0.2906
+     ],
+     "SpecPrefill (32B)": [
+      0.4146,
+      0.28,
+      0.2201,
+      0.3279
+     ],
+     "ExpectedAttention (32B)": [
+      0.4425,
+      0.3322,
+      0.4006,
+      0.2976
+     ],
+     "KV quantization (32B)": [
+      0.5017,
+      0.4009,
+      0.4894,
+      0.58
+     ]
+    },
+    "closeness_pct": [
+     9161.5,
+     -1196.7,
+     86.7,
+     50.5
+    ]
+   },
+   "category 2": {
+    "n": 131,
+    "conversations": 10,
+    "bins": [
+     [
+      1,
+      5
+     ],
+     [
+      6,
+      10
+     ],
+     [
+      11,
+      20
+     ],
+     [
+      21,
+      30
+     ]
+    ],
+    "bin_labels": [
+     "1\u20135",
+     "6\u201310",
+     "11\u201320",
+     "21\u201330"
+    ],
+    "bin_n": [
+     21,
+     22,
+     43,
+     45
+    ],
+    "arms": {
+     "Full-context 32B": [
+      0.5866,
+      0.7178,
+      0.7199,
+      0.6043
+     ],
+     "PAIR 32B + 7B (ours)": [
+      0.5059,
+      0.6392,
+      0.6575,
+      0.61
+     ],
+     "Full-context 7B": [
+      0.4636,
+      0.5523,
+      0.5883,
+      0.4007
+     ],
+     "snapKV (32B)": [
+      0.4844,
+      0.6231,
+      0.3746,
+      0.4422
+     ],
+     "SpecPrefill (32B)": [
+      0.5127,
+      0.5158,
+      0.3734,
+      0.4028
+     ],
+     "ExpectedAttention (32B)": [
+      0.1854,
+      0.266,
+      0.3265,
+      0.306
+     ],
+     "KV quantization (32B)": [
+      0.6112,
+      0.7011,
+      0.7008,
+      0.6166
+     ]
+    },
+    "closeness_pct": [
+     34.4,
+     52.5,
+     52.6,
+     102.8
+    ]
+   }
+  },
+  "arms": {
+   "Full-context 32B": {
+    "query_dependent": false,
+    "tag": "c30_teacher32b"
+   },
+   "PAIR 32B + 7B (ours)": {
+    "query_dependent": false,
+    "tag": "c30b3_7b_SsoloLfus_LMNA"
+   },
+   "Full-context 7B": {
+    "query_dependent": false,
+    "tag": "c30_floor7b"
+   },
+   "snapKV (32B)": {
+    "query_dependent": true,
+    "tag": "c30b3_snapkv_frozen_r078125"
+   },
+   "SpecPrefill (32B)": {
+    "query_dependent": true,
+    "tag": "c30b3_specprefill_k21875"
+   },
+   "ExpectedAttention (32B)": {
+    "query_dependent": false,
+    "tag": "c30b3_h2o_r078125"
+   },
+   "KV quantization (32B)": {
+    "query_dependent": false,
+    "tag": "lcao_int4"
+   }
+  },
+  "first_vs_later": {
+   "conversations": 10,
+   "n_first": 10,
+   "n_later": 290,
+   "arms": {
+    "Full-context 32B": {
+     "first": 0.5346,
+     "later": 0.5591,
+     "paired_mean": 0.0245,
+     "up": 5,
+     "down": 5
+    },
+    "PAIR 32B + 7B (ours)": {
+     "first": 0.54,
+     "later": 0.4977,
+     "paired_mean": -0.0423,
+     "up": 4,
+     "down": 6
+    },
+    "Full-context 7B": {
+     "first": 0.4367,
+     "later": 0.4239,
+     "paired_mean": -0.0128,
+     "up": 6,
+     "down": 4
+    },
+    "snapKV (32B)": {
+     "first": 0.4812,
+     "later": 0.3843,
+     "paired_mean": -0.097,
+     "up": 5,
+     "down": 5
+    },
+    "SpecPrefill (32B)": {
+     "first": 0.521,
+     "later": 0.3551,
+     "paired_mean": -0.1658,
+     "up": 4,
+     "down": 6
+    },
+    "ExpectedAttention (32B)": {
+     "first": 0.2022,
+     "later": 0.3312,
+     "paired_mean": 0.1289,
+     "up": 8,
+     "down": 2
+    },
+    "KV quantization (32B)": {
+     "first": 0.4925,
+     "later": 0.5607,
+     "paired_mean": 0.0681,
+     "up": 5,
+     "down": 5
+    }
+   }
+  },
+  "category_mix": [
+   {
+    "bin": "1\u20135",
+    "counts": {
+     "1": 21,
+     "2": 21,
+     "3": 6,
+     "4": 2
+    }
+   },
+   {
+    "bin": "6\u201310",
+    "counts": {
+     "1": 20,
+     "2": 22,
+     "3": 8,
+     "4": 0
+    }
+   },
+   {
+    "bin": "11\u201320",
+    "counts": {
+     "1": 38,
+     "2": 43,
+     "3": 17,
+     "4": 2
+    }
+   },
+   {
+    "bin": "21\u201330",
+    "counts": {
+     "1": 43,
+     "2": 45,
+     "3": 11,
+     "4": 1
+    }
+   }
+  ],
+  "category_mix_first_question": {
+   "1": 2,
+   "2": 6,
+   "3": 2,
+   "4": 0
+  },
+  "cat_bin_labels": [
+   "1\u20135",
+   "6\u201310",
+   "11\u201320",
+   "21\u201330"
+  ]
+ }
+}

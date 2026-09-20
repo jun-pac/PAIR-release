@@ -1,0 +1,303 @@
+{
+ "d40": {
+  "ctx_ktok": 6.1,
+  "docs": 40,
+  "ctx_ktok_provisional": false,
+  "yarn": null,
+  "floor": {
+   "batch": 64,
+   "ans_s": 3.3308,
+   "ans_s_full": 3.1411,
+   "tail_rows": 32,
+   "n_batches": 2,
+   "n_full_batches": 1,
+   "answers": 96,
+   "e2e_s": 28.8,
+   "prefill_s": 20.0,
+   "prefill_s_per_q": 0.208,
+   "f1_mean": 0.5683,
+   "correct_share": {
+    "1.0": 0.4583,
+    "0.8": 0.5104,
+    "0.5": 0.6146
+   },
+   "node": "gh089",
+   "job": "3102806",
+   "file": "ctpf_d40_floor7.jsonl",
+   "oom_at": null,
+   "bound": "lower bound - never OOM'd"
+  },
+  "ours": {
+   "batch": 16,
+   "ans_s": 1.9728,
+   "ans_s_full": 1.9728,
+   "tail_rows": 0,
+   "n_batches": 6,
+   "n_full_batches": 6,
+   "answers": 96,
+   "e2e_s": 48.7,
+   "prefill_s": 22.3,
+   "prefill_s_per_q": 0.232,
+   "f1_mean": 0.7275,
+   "correct_share": {
+    "1.0": 0.5833,
+    "0.8": 0.6562,
+    "0.5": 0.7604
+   },
+   "node": "gh089",
+   "job": "3102806",
+   "file": "ctpf_d40_ours.jsonl",
+   "oom_at": null,
+   "bound": "lower bound - never OOM'd"
+  },
+  "teacher": {
+   "batch": 10,
+   "ans_s": 0.8188,
+   "ans_s_full": 0.8151,
+   "tail_rows": 6,
+   "n_batches": 10,
+   "n_full_batches": 9,
+   "answers": 96,
+   "e2e_s": 117.2,
+   "prefill_s": 73.9,
+   "prefill_s_per_q": 0.77,
+   "f1_mean": 0.7792,
+   "correct_share": {
+    "1.0": 0.5938,
+    "0.8": 0.7083,
+    "0.5": 0.8125
+   },
+   "node": "gh089",
+   "job": "3102806",
+   "file": "ctpf_d40_teacher.jsonl",
+   "oom_at": 12,
+   "bound": "bracketed"
+  }
+ },
+ "d80": {
+  "ctx_ktok": 11.8,
+  "docs": 80,
+  "ctx_ktok_provisional": false,
+  "yarn": null,
+  "floor": {
+   "batch": 32,
+   "ans_s": 1.7291,
+   "ans_s_full": 1.7291,
+   "tail_rows": 0,
+   "n_batches": 3,
+   "n_full_batches": 3,
+   "answers": 96,
+   "e2e_s": 55.5,
+   "prefill_s": 42.3,
+   "prefill_s_per_q": 0.441,
+   "f1_mean": 0.5349,
+   "correct_share": {
+    "1.0": 0.4583,
+    "0.8": 0.4896,
+    "0.5": 0.5521
+   },
+   "node": "gh089",
+   "job": "3102806",
+   "file": "ctpf_d80_floor7.jsonl",
+   "oom_at": 40,
+   "bound": "bracketed"
+  },
+  "ours": {
+   "batch": 10,
+   "ans_s": 1.118,
+   "ans_s_full": 1.1163,
+   "tail_rows": 6,
+   "n_batches": 10,
+   "n_full_batches": 9,
+   "answers": 96,
+   "e2e_s": 85.9,
+   "prefill_s": 44.5,
+   "prefill_s_per_q": 0.464,
+   "f1_mean": 0.6967,
+   "correct_share": {
+    "1.0": 0.5625,
+    "0.8": 0.6146,
+    "0.5": 0.7396
+   },
+   "node": "gh089",
+   "job": "3102806",
+   "file": "ctpf_d80_ours.jsonl",
+   "oom_at": 12,
+   "bound": "bracketed"
+  },
+  "teacher": {
+   "batch": 6,
+   "ans_s": 0.4316,
+   "ans_s_full": 0.4316,
+   "tail_rows": 0,
+   "n_batches": 16,
+   "n_full_batches": 16,
+   "answers": 96,
+   "e2e_s": 222.4,
+   "prefill_s": 159.5,
+   "prefill_s_per_q": 1.661,
+   "f1_mean": 0.7494,
+   "correct_share": {
+    "1.0": 0.5833,
+    "0.8": 0.6979,
+    "0.5": 0.7917
+   },
+   "node": "gh089",
+   "job": "3102806",
+   "file": "ctpf_d80_teacher.jsonl",
+   "oom_at": 8,
+   "bound": "bracketed"
+  }
+ },
+ "d120": {
+  "ctx_ktok": 18.0,
+  "docs": 120,
+  "ctx_ktok_provisional": false,
+  "yarn": null,
+  "floor": {
+   "batch": 24,
+   "ans_s": 1.1295,
+   "ans_s_full": 1.1295,
+   "tail_rows": 0,
+   "n_batches": 4,
+   "n_full_batches": 4,
+   "answers": 96,
+   "e2e_s": 85.0,
+   "prefill_s": 67.1,
+   "prefill_s_per_q": 0.699,
+   "f1_mean": 0.556,
+   "correct_share": {
+    "1.0": 0.4688,
+    "0.8": 0.4896,
+    "0.5": 0.5729
+   },
+   "node": "gh089",
+   "job": "3102806",
+   "file": "ctpf_d120_floor7.jsonl",
+   "oom_at": 32,
+   "bound": "bracketed"
+  },
+  "ours": {
+   "batch": 6,
+   "ans_s": 0.7445,
+   "ans_s_full": 0.7445,
+   "tail_rows": 0,
+   "n_batches": 16,
+   "n_full_batches": 16,
+   "answers": 96,
+   "e2e_s": 128.9,
+   "prefill_s": 70.7,
+   "prefill_s_per_q": 0.737,
+   "f1_mean": 0.7067,
+   "correct_share": {
+    "1.0": 0.5729,
+    "0.8": 0.625,
+    "0.5": 0.75
+   },
+   "node": "gh089",
+   "job": "3102806",
+   "file": "ctpf_d120_ours.jsonl",
+   "oom_at": 8,
+   "bound": "bracketed"
+  },
+  "teacher": {
+   "batch": 4,
+   "ans_s": 0.2788,
+   "ans_s_full": 0.2788,
+   "tail_rows": 0,
+   "n_batches": 24,
+   "n_full_batches": 24,
+   "answers": 96,
+   "e2e_s": 344.4,
+   "prefill_s": 257.7,
+   "prefill_s_per_q": 2.685,
+   "f1_mean": 0.6946,
+   "correct_share": {
+    "1.0": 0.5417,
+    "0.8": 0.6354,
+    "0.5": 0.7396
+   },
+   "node": "gh089",
+   "job": "3102806",
+   "file": "ctpf_d120_teacher.jsonl",
+   "oom_at": 6,
+   "bound": "bracketed"
+  }
+ },
+ "d160": {
+  "ctx_ktok": 23.3,
+  "docs": 160,
+  "ctx_ktok_provisional": false,
+  "yarn": null,
+  "floor": {
+   "batch": 24,
+   "ans_s": 0.814,
+   "ans_s_full": 0.814,
+   "tail_rows": 0,
+   "n_batches": 4,
+   "n_full_batches": 4,
+   "answers": 96,
+   "e2e_s": 117.9,
+   "prefill_s": 97.1,
+   "prefill_s_per_q": 1.012,
+   "f1_mean": 0.5352,
+   "correct_share": {
+    "1.0": 0.4479,
+    "0.8": 0.4792,
+    "0.5": 0.5521
+   },
+   "node": "gh089",
+   "job": "3102806",
+   "file": "ctpf_d160_floor7.jsonl",
+   "oom_at": 32,
+   "bound": "bracketed"
+  },
+  "ours": {
+   "batch": 6,
+   "ans_s": 0.5917,
+   "ans_s_full": 0.5917,
+   "tail_rows": 0,
+   "n_batches": 16,
+   "n_full_batches": 16,
+   "answers": 96,
+   "e2e_s": 162.2,
+   "prefill_s": 101.8,
+   "prefill_s_per_q": 1.06,
+   "f1_mean": 0.7018,
+   "correct_share": {
+    "1.0": 0.5625,
+    "0.8": 0.6146,
+    "0.5": 0.7396
+   },
+   "node": "gh089",
+   "job": "3102806",
+   "file": "ctpf_d160_ours.jsonl",
+   "oom_at": 8,
+   "bound": "bracketed"
+  },
+  "teacher": {
+   "batch": 3,
+   "ans_s": 0.197,
+   "ans_s_full": 0.197,
+   "tail_rows": 0,
+   "n_batches": 32,
+   "n_full_batches": 32,
+   "answers": 96,
+   "e2e_s": 487.4,
+   "prefill_s": 373.2,
+   "prefill_s_per_q": 3.887,
+   "f1_mean": 0.5333,
+   "correct_share": {
+    "1.0": 0.4062,
+    "0.8": 0.4583,
+    "0.5": 0.5521
+   },
+   "node": "gh089",
+   "job": "3102806",
+   "file": "ctpf_d160_teacher.jsonl",
+   "oom_at": 4,
+   "bound": "bracketed"
+  }
+ },
+ "_source": "scripts/score_context_throughput.py \u2014 throughput_eval.measure() over the ctpf_d*_{teacher,ours,floor7} logs of job(s) 3102806; hotpotQA d40 s42 reference, the first 96 questions at every depth; complete-batch rate beside the all-batch rate."
+}

@@ -1,0 +1,172 @@
+{
+  "tag": "compiled_sdpa_ro",
+  "attn_impl": "sdpa",
+  "static": true,
+  "compile_mode": "reduce-overhead",
+  "B": 6,
+  "ctx": 27500,
+  "alloc": "expandable_segments:True",
+  "node": "gh047",
+  "job": "3035559",
+  "total_gpu_ms_per_step": 93.2503344999998,
+  "launches_per_step": 681.0833333333334,
+  "buckets": {
+    "KV write / copy": 0.31414458333323664,
+    "other": 46.6331652499999,
+    "elementwise / norm / rope": 0.09811916666658958,
+    "matmul (projections + MLP)": 5.0441135833334085,
+    "attention": 41.16079191666666
+  },
+  "top": [
+    {
+      "ms": 46.59372416666657,
+      "n": 1.0,
+      "kernel": "## Call CompiledFxGraph f6aymld7hwpqp3jnmau2njk5po4nzcjxgb37jzgg6ltwjxouiic5 ##",
+      "bucket": "other"
+    },
+    {
+      "ms": 22.137160749999953,
+      "n": 56.0,
+      "kernel": "triton_poi_fused__scaled_dot_product_cudnn_attention__to_copy__unsafe_view_add_arange_bitwise_and_cat_clone_cos_expand_index_le_mul_neg_scalar_tensor_sin_slice_transpose_unsqueeze_view_where_5",
+      "bucket": "attention"
+    },
+    {
+      "ms": 18.94234050000004,
+      "n": 28.0,
+      "kernel": "cudnn_generated_fort_native_sdpa_sm80_flash_fprop_wmma_f16_knob_35_16x128x128_1x4x1_cga1x1x1_kernel0_0",
+      "bucket": "attention"
+    },
+    {
+      "ms": 2.3180882500000464,
+      "n": 56.0,
+      "kernel": "nvjet_tst_192x8_64x8_4x1_v_bz_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 1.1528815833332757,
+      "n": 28.0,
+      "kernel": "nvjet_tst_128x8_64x12_2x1_v_bz_splitK_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.6654487500000784,
+      "n": 84.0,
+      "kernel": "nvjet_tst_64x8_64x16_4x1_v_bz_splitK_bias_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.301134499999978,
+      "n": 28.0,
+      "kernel": "nvjet_tst_64x8_64x16_4x1_v_bz_splitK_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.3002993333333203,
+      "n": 1.0,
+      "kernel": "nvjet_tst_384x8_64x4_2x1_v_bz_TNT",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.18571324999993657,
+      "n": 84.0,
+      "kernel": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false, float, __nv_bfloat16, __nv_bfloat16, true, true, false>(cublasLt::cublasSplitKParams<float>, float const*, __nv_bfloat16 const*, float*, __nv_bfloat16*, float const*, float const*, __nv_bfloat16 const*, float const*, __nv_bfloat16*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.11887066666676799,
+      "n": 56.0,
+      "kernel": "void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false, float, __nv_bfloat16, __nv_bfloat16, true, false, false>(cublasLt::cublasSplitKParams<float>, float const*, __nv_bfloat16 const*, float*, __nv_bfloat16*, float const*, float const*, __nv_bfloat16 const*, float const*, __nv_bfloat16*, void*, long, float*, int*, float*, float*, float const*, float const*, float const*, float const*, float const*)",
+      "bucket": "matmul (projections + MLP)"
+    },
+    {
+      "ms": 0.051000833333271434,
+      "n": 28.0,
+      "kernel": "triton_poi_fused__unsafe_view_mm_mul_silu_9",
+      "bucket": "elementwise / norm / rope"
+    },
+    {
+      "ms": 0.049945166666652524,
+      "n": 28.0,
+      "kernel": "triton_poi_fused__to_copy_add_cat_cos_index_copy_mul_neg_sin_slice_transpose_unsqueeze_view_2",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.04938466666665894,
+      "n": 13.0,
+      "kernel": "triton_red_fused__to_copy__unsafe_view_add_mean_mm_mul_pow_rsqrt_16",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.04851816666664433,
+      "n": 28.0,
+      "kernel": "triton_poi_fused__scaled_dot_product_cudnn_attention__to_copy__unsafe_view_add_arange_bitwise_and_cat_clone_cos_expand_index_le_mul_neg_scalar_tensor_sin_slice_transpose_unsqueeze_view_where_4",
+      "bucket": "attention"
+    },
+    {
+      "ms": 0.0429481666666195,
+      "n": 13.0,
+      "kernel": "triton_red_fused__to_copy__unsafe_view_add_mean_mm_mul_pow_rsqrt_15",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.04024916666668052,
+      "n": 28.0,
+      "kernel": "triton_poi_fused__unsafe_view_mm_mul_silu_view_10",
+      "bucket": "elementwise / norm / rope"
+    },
+    {
+      "ms": 0.03736908333331458,
+      "n": 28.0,
+      "kernel": "triton_poi_fused_mm_view_8",
+      "bucket": "other"
+    },
+    {
+      "ms": 0.033553583333352816,
+      "n": 28.0,
+      "kernel": "triton_poi_fused_index_copy_transpose_view_3",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.0330174999999684,
+      "n": 13.0,
+      "kernel": "triton_red_fused__to_copy__unsafe_view_add_mean_mm_mul_pow_rsqrt_14",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.032772500000014096,
+      "n": 14.0,
+      "kernel": "triton_poi_fused__scaled_dot_product_cudnn_attention__to_copy__unsafe_view_add_arange_bitwise_and_cat_clone_cos_expand_index_le_mul_neg_scalar_tensor_sin_slice_transpose_unsqueeze_view_where_6",
+      "bucket": "attention"
+    },
+    {
+      "ms": 0.03128991666663637,
+      "n": 13.0,
+      "kernel": "triton_red_fused__to_copy__unsafe_view_add_mean_mm_mul_pow_rsqrt_13",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.019524583333337942,
+      "n": 1.0,
+      "kernel": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::UnaryOpFunctor<long, 2, 1, 1>, at::native::Copy<long, long> >(at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::UnaryOpFunctor<long, 2, 1, 1>, at::native::Copy<long, long>)",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.019524583333337942,
+      "n": 1.0,
+      "kernel": "aten::_foreach_copy_",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.007962583333329325,
+      "n": 4.0,
+      "kernel": "aten::copy_",
+      "bucket": "KV write / copy"
+    },
+    {
+      "ms": 0.006743999999997471,
+      "n": 3.0,
+      "kernel": "Memcpy DtoD (Device -> Device)",
+      "bucket": "KV write / copy"
+    }
+  ]
+}

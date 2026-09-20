@@ -1,0 +1,77 @@
+{
+  "single_question": {
+    "n": 254,
+    "files": {
+      "teacher": "results/clutrr_sq/clsq_teacher32b.jsonl",
+      "floor": "results/clutrr_sq/clsq_floor7b.jsonl",
+      "plain": "results/clutrr_sq/clsq_plain.jsonl",
+      "ours": "results/clutrr_sq/clsq_ours.jsonl"
+    },
+    "batch": {
+      "teacher": 24,
+      "floor": 48,
+      "plain": 24,
+      "ours": 24
+    },
+    "teacher": 0.6102,
+    "floor": 0.3346,
+    "plain": 0.374,
+    "ours": 0.4449,
+    "plain_closeness_pct": 14.3,
+    "ours_closeness_pct": 40.0,
+    "paired_WL": {
+      "ours_vs_floor": [
+        60,
+        32
+      ],
+      "ours_vs_plain": [
+        52,
+        34
+      ],
+      "plain_vs_floor": [
+        38,
+        28
+      ]
+    }
+  },
+  "accumulate": {
+    "n": 254,
+    "files": {
+      "teacher": "results/fusionft/clb3_teacher32b.jsonl",
+      "floor": "results/fusionft/clb3_floor7b.jsonl",
+      "plain": "results/fusionft/clb3_plain_LMNA.jsonl",
+      "ssolo": "results/fusionft/clb3_Ssolo_LMNA.jsonl",
+      "ours": "results/fusionft/clb3_SsoloLfus07_LMNA.jsonl"
+    },
+    "batch": {
+      "teacher": 3,
+      "floor": 3,
+      "plain": 3,
+      "ssolo": 3,
+      "ours": 3
+    },
+    "teacher": 0.6575,
+    "floor": 0.3071,
+    "plain": 0.3858,
+    "ssolo": 0.4803,
+    "ours": 0.4055,
+    "plain_closeness_pct": 22.5,
+    "ssolo_closeness_pct": 49.4,
+    "ours_closeness_pct": 28.1,
+    "paired_WL": {
+      "ours_vs_floor": [
+        51,
+        26
+      ],
+      "ours_vs_plain": [
+        42,
+        37
+      ],
+      "plain_vs_floor": [
+        45,
+        25
+      ]
+    }
+  },
+  "_source": "scripts/score_clutrr_sq.py \u2014 build_table canonical scoring (reason_fix.extract_answer + clutrr_relation_em) on the 254 shared ids; single-question = job 3099230 (bench clutrr_sq), accumulate = clb3_* (bench clutrr). Relation-EM: first relation word of the extracted answer == gold."
+}

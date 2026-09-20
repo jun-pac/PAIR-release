@@ -1,0 +1,30 @@
+{
+  "tag": "reader7b",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "B": 6,
+  "ctx": 27500,
+  "nstep": 200,
+  "node": "gh045",
+  "job": "3041327",
+  "alloc": "expandable_segments:True",
+  "arms": {
+    "A_eager_flash_dynamic": {
+      "wall": 33.64082233262403,
+      "gpu": 30.351090583332923,
+      "launches": 2674.1666666666665
+    },
+    "B_flash_kvcache_eager": {
+      "wall": 35.08259850301935,
+      "gpu": 16.35068600000005,
+      "launches": 2342.25,
+      "argmax_match": 1.0,
+      "maxdiff0": 0.0
+    },
+    "C_flash_kvcache_cudagraph": {
+      "wall": 10.319952004162284,
+      "gpu": 9.844545583333309,
+      "launches": 1282.9166666666667,
+      "argmax_match": 1.0
+    }
+  }
+}

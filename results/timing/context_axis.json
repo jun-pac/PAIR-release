@@ -1,0 +1,403 @@
+{
+  "d40": {
+    "teacher": {
+      "n": 600,
+      "asis": 0.7492,
+      "trimmed": 0.7492,
+      "moved": 0,
+      "residual_over15w": 6,
+      "reasoned_pct": 98.0,
+      "empty": 0,
+      "yarn": null
+    },
+    "ctx_ktok": 6.1,
+    "ours": {
+      "n": 600,
+      "asis": 0.7178,
+      "trimmed": 0.7178,
+      "moved": 0,
+      "residual_over15w": 4,
+      "reasoned_pct": 100.0,
+      "empty": 0,
+      "yarn": null
+    },
+    "floor": {
+      "n": 600,
+      "asis": 0.5939,
+      "trimmed": 0.5939,
+      "moved": 0,
+      "residual_over15w": 14,
+      "reasoned_pct": 72.5,
+      "empty": 7,
+      "yarn": null
+    },
+    "snapkv": {
+      "n": 600,
+      "asis": 0.7027,
+      "trimmed": 0.7027,
+      "moved": 0,
+      "residual_over15w": 42,
+      "reasoned_pct": 99.8,
+      "empty": 0,
+      "yarn": null
+    },
+    "expected": {
+      "n": 600,
+      "asis": 0.6061,
+      "trimmed": 0.6061,
+      "moved": 0,
+      "residual_over15w": 32,
+      "reasoned_pct": 97.3,
+      "empty": 0,
+      "yarn": null
+    },
+    "spec": {
+      "n": 600,
+      "asis": 0.6539,
+      "trimmed": 0.6644,
+      "moved": 8,
+      "residual_over15w": 29,
+      "reasoned_pct": 91.8,
+      "empty": 0,
+      "yarn": null
+    },
+    "closeness_pct": 79.8
+  },
+  "d80": {
+    "teacher": {
+      "n": 600,
+      "asis": 0.7086,
+      "trimmed": 0.7232,
+      "moved": 14,
+      "residual_over15w": 10,
+      "reasoned_pct": 99.8,
+      "empty": 0,
+      "yarn": null
+    },
+    "ctx_ktok": 11.8,
+    "ours": {
+      "n": 600,
+      "asis": 0.6885,
+      "trimmed": 0.6885,
+      "moved": 0,
+      "residual_over15w": 6,
+      "reasoned_pct": 100.0,
+      "empty": 0,
+      "yarn": null
+    },
+    "floor": {
+      "n": 600,
+      "asis": 0.5969,
+      "trimmed": 0.5969,
+      "moved": 0,
+      "residual_over15w": 14,
+      "reasoned_pct": 93.3,
+      "empty": 5,
+      "yarn": null
+    },
+    "snapkv": {
+      "n": 600,
+      "asis": 0.6386,
+      "trimmed": 0.6386,
+      "moved": 0,
+      "residual_over15w": 80,
+      "reasoned_pct": 99.8,
+      "empty": 0,
+      "yarn": null
+    },
+    "expected": {
+      "n": 600,
+      "asis": 0.5734,
+      "trimmed": 0.5782,
+      "moved": 3,
+      "residual_over15w": 45,
+      "reasoned_pct": 98.7,
+      "empty": 0,
+      "yarn": null
+    },
+    "spec": {
+      "n": 600,
+      "asis": 0.6525,
+      "trimmed": 0.6738,
+      "moved": 18,
+      "residual_over15w": 24,
+      "reasoned_pct": 92.7,
+      "empty": 0,
+      "yarn": null
+    },
+    "closeness_pct": 72.5
+  },
+  "d120": {
+    "teacher": {
+      "n": 600,
+      "asis": 0.6167,
+      "trimmed": 0.7029,
+      "moved": 83,
+      "residual_over15w": 13,
+      "reasoned_pct": 98.7,
+      "empty": 0,
+      "yarn": null
+    },
+    "ctx_ktok": 18.0,
+    "ours": {
+      "n": 600,
+      "asis": 0.6828,
+      "trimmed": 0.6828,
+      "moved": 0,
+      "residual_over15w": 3,
+      "reasoned_pct": 100.0,
+      "empty": 0,
+      "yarn": null
+    },
+    "floor": {
+      "n": 600,
+      "asis": 0.5916,
+      "trimmed": 0.5916,
+      "moved": 1,
+      "residual_over15w": 23,
+      "reasoned_pct": 98.2,
+      "empty": 3,
+      "yarn": null
+    },
+    "snapkv": {
+      "n": 600,
+      "asis": 0.625,
+      "trimmed": 0.625,
+      "moved": 0,
+      "residual_over15w": 90,
+      "reasoned_pct": 99.8,
+      "empty": 0,
+      "yarn": null
+    },
+    "expected": {
+      "n": 600,
+      "asis": 0.5466,
+      "trimmed": 0.5482,
+      "moved": 1,
+      "residual_over15w": 86,
+      "reasoned_pct": 97.5,
+      "empty": 0,
+      "yarn": null
+    },
+    "spec": {
+      "n": 600,
+      "asis": 0.6811,
+      "trimmed": 0.6962,
+      "moved": 13,
+      "residual_over15w": 17,
+      "reasoned_pct": 92.3,
+      "empty": 0,
+      "yarn": null
+    },
+    "closeness_pct": 81.9
+  },
+  "d160": {
+    "teacher": {
+      "n": 600,
+      "asis": 0.5116,
+      "trimmed": 0.6893,
+      "moved": 177,
+      "residual_over15w": 24,
+      "reasoned_pct": 96.0,
+      "empty": 0,
+      "yarn": null
+    },
+    "ctx_ktok": 23.3,
+    "ours": {
+      "n": 600,
+      "asis": 0.6707,
+      "trimmed": 0.6718,
+      "moved": 1,
+      "residual_over15w": 4,
+      "reasoned_pct": 100.0,
+      "empty": 0,
+      "yarn": null
+    },
+    "floor": {
+      "n": 600,
+      "asis": 0.5536,
+      "trimmed": 0.5554,
+      "moved": 2,
+      "residual_over15w": 24,
+      "reasoned_pct": 97.3,
+      "empty": 3,
+      "yarn": null
+    },
+    "snapkv": {
+      "n": 600,
+      "asis": 0.5902,
+      "trimmed": 0.5902,
+      "moved": 0,
+      "residual_over15w": 114,
+      "reasoned_pct": 100.0,
+      "empty": 0,
+      "yarn": null
+    },
+    "expected": {
+      "n": 600,
+      "asis": 0.5317,
+      "trimmed": 0.5333,
+      "moved": 1,
+      "residual_over15w": 99,
+      "reasoned_pct": 96.8,
+      "empty": 0,
+      "yarn": null
+    },
+    "spec": {
+      "n": 600,
+      "asis": 0.6461,
+      "trimmed": 0.6607,
+      "moved": 14,
+      "residual_over15w": 32,
+      "reasoned_pct": 86.0,
+      "empty": 0,
+      "yarn": null
+    },
+    "closeness_pct": 86.9
+  },
+  "d200": {
+    "teacher": {
+      "n": 600,
+      "asis": 0.6682,
+      "trimmed": 0.6698,
+      "moved": 1,
+      "residual_over15w": 16,
+      "reasoned_pct": 99.2,
+      "empty": 0,
+      "yarn": 4.0
+    },
+    "ctx_ktok": 29.2,
+    "yarn": 4.0,
+    "ctx_ktok_provisional": false,
+    "ours": {
+      "n": 600,
+      "asis": 0.684,
+      "trimmed": 0.684,
+      "moved": 0,
+      "residual_over15w": 3,
+      "reasoned_pct": 100.0,
+      "empty": 0,
+      "yarn": 4.0
+    },
+    "floor": {
+      "n": 600,
+      "asis": 0.4472,
+      "trimmed": 0.4472,
+      "moved": 1,
+      "residual_over15w": 36,
+      "reasoned_pct": 36.2,
+      "empty": 49,
+      "yarn": 4.0
+    },
+    "closeness_pct": 106.4
+  },
+  "d240": {
+    "teacher": {
+      "n": 600,
+      "asis": 0.6664,
+      "trimmed": 0.6759,
+      "moved": 8,
+      "residual_over15w": 21,
+      "reasoned_pct": 97.3,
+      "empty": 0,
+      "yarn": 4.0
+    },
+    "ctx_ktok": 34.8,
+    "yarn": 4.0,
+    "ctx_ktok_provisional": false,
+    "ours": {
+      "n": 600,
+      "asis": 0.6504,
+      "trimmed": 0.6504,
+      "moved": 0,
+      "residual_over15w": 4,
+      "reasoned_pct": 100.0,
+      "empty": 0,
+      "yarn": 4.0
+    },
+    "floor": {
+      "n": 600,
+      "asis": 0.4555,
+      "trimmed": 0.4555,
+      "moved": 0,
+      "residual_over15w": 32,
+      "reasoned_pct": 29.5,
+      "empty": 47,
+      "yarn": 4.0
+    },
+    "closeness_pct": 88.4
+  },
+  "d280": {
+    "teacher": {
+      "n": 600,
+      "asis": 0.6109,
+      "trimmed": 0.637,
+      "moved": 30,
+      "residual_over15w": 16,
+      "reasoned_pct": 93.8,
+      "empty": 0,
+      "yarn": 4.0
+    },
+    "ctx_ktok": 40.9,
+    "yarn": 4.0,
+    "ctx_ktok_provisional": false,
+    "ours": {
+      "n": 600,
+      "asis": 0.6367,
+      "trimmed": 0.6367,
+      "moved": 0,
+      "residual_over15w": 5,
+      "reasoned_pct": 100.0,
+      "empty": 0,
+      "yarn": 4.0
+    },
+    "floor": {
+      "n": 600,
+      "asis": 0.4265,
+      "trimmed": 0.4265,
+      "moved": 0,
+      "residual_over15w": 50,
+      "reasoned_pct": 31.8,
+      "empty": 44,
+      "yarn": 4.0
+    },
+    "closeness_pct": 99.9
+  },
+  "d320": {
+    "teacher": {
+      "n": 600,
+      "asis": 0.6048,
+      "trimmed": 0.6541,
+      "moved": 51,
+      "residual_over15w": 22,
+      "reasoned_pct": 91.8,
+      "empty": 0,
+      "yarn": 4.0
+    },
+    "ctx_ktok": 45.7,
+    "yarn": 4.0,
+    "ctx_ktok_provisional": false,
+    "ours": {
+      "n": 600,
+      "asis": 0.6551,
+      "trimmed": 0.6551,
+      "moved": 0,
+      "residual_over15w": 2,
+      "reasoned_pct": 100.0,
+      "empty": 0,
+      "yarn": 4.0
+    },
+    "floor": {
+      "n": 600,
+      "asis": 0.4097,
+      "trimmed": 0.4097,
+      "moved": 0,
+      "residual_over15w": 59,
+      "reasoned_pct": 34.5,
+      "empty": 40,
+      "yarn": 4.0
+    },
+    "closeness_pct": 100.4
+  },
+  "_source": "scripts/score_context_axis.py \u2014 the project's deployed stop rule applied uniformly to every arm, canonical extractor and metric, hotpotQA d40 s42 FULL-600 questions at up to eight document counts (d200-d320 with ROPE_YARN_FACTOR=4 on both models, 2026-09-11). Scoped to this axis only."
+}

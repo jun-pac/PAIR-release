@@ -1,0 +1,19 @@
+{
+ "conv": "ho-5a794119554299029c4b5f3c",
+ "question": "Who was born first, Nellee Hooper or Baz Luhrmann?",
+ "gold": "\"Baz\" Luhrmann",
+ "ctx_tok": 6897,
+ "teacher": "Nellee Hooper was born on 15 March 1963, while Baz Luhrmann was born on 17 September 1962. Therefore, Baz Luhrmann was born first.\nFinal Answer: Baz Luhrmann",
+ "ours": "Step 1 (Reasoning): Nellee Hooper was born on 15 March 1963, while Baz Luhrmann was born on 17 September 1962. Therefore, Baz Luhrmann was born first.\nStep 2 (Answer):\nFinal Answer: Baz Luhrmann",
+ "reader": "Step 1 (Reasoning): Nellee Hooper was born on 15 March 1963, while Baz Luhrmann was born on 17 September 1962. Therefore, Nellee Hooper was born first.\nStep 2 (Answer): Final Answer: Nellee Hooper",
+ "f1": {
+  "teacher": 1.0,
+  "ours": 1.0,
+  "reader": 0.0
+ },
+ "pred": {
+  "teacher": "Baz Luhrmann",
+  "ours": "Baz Luhrmann",
+  "reader": "Nellee Hooper"
+ }
+}

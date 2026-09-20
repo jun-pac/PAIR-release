@@ -1,0 +1,191 @@
+{
+ "expected600": {
+  "tag": "expected600",
+  "batch": 20,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": 24,
+  "bound": "bracketed"
+ },
+ "expected700": {
+  "tag": "expected700",
+  "batch": 24,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": 32,
+  "bound": "bracketed"
+ },
+ "expected781": {
+  "tag": "expected781",
+  "batch": 32,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": 40,
+  "bound": "bracketed"
+ },
+ "expected850": {
+  "tag": "expected850",
+  "batch": 48,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": 64,
+  "bound": "bracketed"
+ },
+ "expected900": {
+  "tag": "expected900",
+  "batch": 80,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "expected950": {
+  "tag": "expected950",
+  "batch": 96,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "floor7": {
+  "tag": "floor7",
+  "batch": 48,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": 64,
+  "bound": "bracketed"
+ },
+ "ours": {
+  "tag": "ours",
+  "batch": 16,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": 20,
+  "bound": "bracketed"
+ },
+ "snap600": {
+  "tag": "snap600",
+  "batch": 20,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": 24,
+  "bound": "bracketed"
+ },
+ "snap700": {
+  "tag": "snap700",
+  "batch": 24,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": 32,
+  "bound": "bracketed"
+ },
+ "snap781": {
+  "tag": "snap781",
+  "batch": 32,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": 40,
+  "bound": "bracketed"
+ },
+ "snap850": {
+  "tag": "snap850",
+  "batch": 48,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": 64,
+  "bound": "bracketed"
+ },
+ "snap900": {
+  "tag": "snap900",
+  "batch": 80,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "snap950": {
+  "tag": "snap950",
+  "batch": 96,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "spec05000": {
+  "tag": "spec05000",
+  "batch": 48,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "spec10000": {
+  "tag": "spec10000",
+  "batch": 40,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "spec15000": {
+  "tag": "spec15000",
+  "batch": 24,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": 32,
+  "bound": "bracketed"
+ },
+ "spec21875": {
+  "tag": "spec21875",
+  "batch": 20,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": 24,
+  "bound": "bracketed"
+ },
+ "spec30000": {
+  "tag": "spec30000",
+  "batch": 12,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": 16,
+  "bound": "bracketed"
+ },
+ "spec40000": {
+  "tag": "spec40000",
+  "batch": 8,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": 12,
+  "bound": "bracketed"
+ },
+ "teacher": {
+  "tag": "teacher",
+  "batch": 10,
+  "answers": 96,
+  "convs": 96,
+  "node": "gh126",
+  "oom_at": 12,
+  "bound": "bracketed"
+ }
+}

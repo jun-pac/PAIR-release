@@ -1,0 +1,191 @@
+{
+ "expected600": {
+  "tag": "expected600",
+  "batch": 6,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": 8,
+  "bound": "bracketed"
+ },
+ "expected700": {
+  "tag": "expected700",
+  "batch": 8,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "expected781": {
+  "tag": "expected781",
+  "batch": 8,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "expected850": {
+  "tag": "expected850",
+  "batch": 8,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "expected900": {
+  "tag": "expected900",
+  "batch": 8,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "expected950": {
+  "tag": "expected950",
+  "batch": 8,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "floor7": {
+  "tag": "floor7",
+  "batch": 8,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "ours": {
+  "tag": "ours",
+  "batch": 8,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "snap600": {
+  "tag": "snap600",
+  "batch": 6,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": 8,
+  "bound": "bracketed"
+ },
+ "snap700": {
+  "tag": "snap700",
+  "batch": 8,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "snap781": {
+  "tag": "snap781",
+  "batch": 8,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "snap850": {
+  "tag": "snap850",
+  "batch": 8,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "snap900": {
+  "tag": "snap900",
+  "batch": 8,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "snap950": {
+  "tag": "snap950",
+  "batch": 8,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "spec05000": {
+  "tag": "spec05000",
+  "batch": 8,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "spec10000": {
+  "tag": "spec10000",
+  "batch": 8,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "spec15000": {
+  "tag": "spec15000",
+  "batch": 8,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ },
+ "spec21875": {
+  "tag": "spec21875",
+  "batch": 6,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": 8,
+  "bound": "bracketed"
+ },
+ "spec30000": {
+  "tag": "spec30000",
+  "batch": 4,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": 6,
+  "bound": "bracketed"
+ },
+ "spec40000": {
+  "tag": "spec40000",
+  "batch": 4,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": 6,
+  "bound": "bracketed"
+ },
+ "teacher": {
+  "tag": "teacher",
+  "batch": 4,
+  "answers": 240,
+  "convs": 8,
+  "node": "gh065",
+  "oom_at": null,
+  "bound": "lower bound - never OOM'd"
+ }
+}
